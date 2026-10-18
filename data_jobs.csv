@@ -1,0 +1,1064 @@
+job_id,company_name,title,location,company_id,formatted_experience_level,skills_desc
+3742692445,ZenithMinds Inc,Sr Data Engineer with Kafka,"Austin, TX",81941852,NA,NA
+3797449314,"Subaru Research and Development, Inc",Cloud Platform/ Big Data Engineer,"Michigan, United States",91080439,Entry level,NA
+3800989742,SilverSpace Technologies Inc,Data Engineer/ETL,"Hartford, CT",71373471,NA,NA
+3813645405,Tenazx Inc,Data Analyst,"Queens, NY",82537206,NA,NA
+3841003722,NA,Senior Data Engineer/Analyst - Full Time,"California, United States",NA,NA,NA
+3872787865,Radiant Systems Inc,eCommerce Data Analyst,United States,3342169,NA,NA
+3884426975,Publicis Sapient,Azure Data Engineer (Full time),"Arlington, VA",10801655,Mid-Senior level,NA
+3884431580,"Econtenti, Inc",Azure Data Engineer,"Seattle, WA",2329852,NA,NA
+3884432522,MCubeSoft,Wealth Management Business Data Analyst,"Charlotte, NC",74604183,NA,NA
+3884434664,TechWish,GCP Data Engineer (Only W2),"Sterling, VA",35679573,Mid-Senior level,NA
+3884434978,Outlier,"Senior Data Analyst - AI Training (Remote, Contract)",United States,92583550,Mid-Senior level,NA
+3884435224,SKYZEN Technologies LLC,Data Engineer,"Philadelphia, PA",101591290,NA,NA
+3884435309,Armstrong World Industries,Data Scientist Job,United States,5968,Entry level,NA
+3884438451,Robert Half,Data Engineer,United States,1681,Mid-Senior level,NA
+3884438958,USCTEK - Recruiting & Staffing,Onsite Data Analyst || USC ONLY || FL LOCALS,"Jacksonville, FL",13637042,NA,NA
+3884439454,Republic Services,Sr. Procurement Data Analyst,"Phoenix, AZ",315817,NA,NA
+3884440505,Avesta Computer Services,Senior ETL Data Engineer - Reinsurance - Remote,United States,34616,Mid-Senior level,NA
+3884441052,A.G. KUNZ LLC,Design Data Analyst,"San Francisco, CA",18101101,NA,NA
+3884441553,OpTech,Data Analyst - Expert with Excel,"Auburn Hills, MI",2425438,Mid-Senior level,NA
+3884446629,CBRE,Legal Data Analyst (Dallas/Chicago),"Chicago, IL",2319,Associate,"What You’ll Need: 
+
+ * Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future
+ * Bachelor's Degree preferred with up to 3 years of relevant experience. In lieu of a degree, a combination of experience and education will be considered. 
+ * Experience in quantitative analysis, data modeling, reporting, relational database tools, data warehousing, database architecture, SQL, and data visualization related work.
+ * Working knowledge of PowerBI highly preferred.
+ * Ability to use existing procedures to solve standard problems.
+ * Experience with analyzing information and standard practices to make judgments.
+ * In-depth knowledge of Microsoft Office products. Examples include Word, Excel, Outlook, etc.
+ * Organizational skills with a strong inquisitive mindset.
+
+When you join CBRE, you become part of a global leader in commercial real estate and investment services that help businesses and people thrive. We are dynamic problem solvers and forward thinking professionals who create significant impact. Our collaborative culture is built on our shared values — respect, integrity, service, and excellence — and we value the diverse perspectives, backgrounds, and skillsets of our people. At CBRE, you have the opportunity to chart your own course and realize your full potential."
+3884808777,Maricopa County,Crash Data Analyst,"Phoenix, AZ",164848,Entry level,NA
+3884819737,Acro Service Corp,Data Analyst,"Orlando, FL",50861,Mid-Senior level,NA
+3884822884,Stanford University,Research Data Analyst 1 (75% FTE/Hybrid Opportunity),"Stanford, CA",1792,Mid-Senior level,NA
+3884823184,"V-Soft Consulting Group, Inc.",Data Engineer (SAP ECC To HANA Migration),"Charlotte, NC",96692,Entry level,NA
+3884825494,Noblis,Chief Data Engineer,"Reston, VA",165207,Mid-Senior level,NA
+3884831624,Piper Companies,Data Engineer,"McLean, VA",2615835,Entry level,NA
+3884834351,Piper Companies,Data Engineer,"Wayne, PA",2615835,Entry level,NA
+3884838060,Pacific Northwest National Laboratory,Senior Data Scientist 3 - Nonproliferation,"Richland, WA",4714,NA,NA
+3884844682,Avesta Computer Services, Senior ETL Data Engineer (100% Remote),United States,34616,Mid-Senior level,NA
+3884844890,JPMorgan Chase & Co.,Marketing Analytics - Data Scientist Senior Associate,"Columbus, OH",1068,NA,NA
+3884847999,Lightcast,Data Analyst (Korean),United States,345589,Entry level,NA
+3884850836,Lightcast,Data Analyst (Chinese),United States,345589,Entry level,NA
+3884850852,Lightcast,Data Analyst (Japanese),United States,345589,Entry level,NA
+3884855386,Mainz Brady Group,Data Engineer,"Beaverton, OR",52638,Entry level,NA
+3884855862,Avesta Computer Services,Senior Data Engineer (Property Reinsurance/ Speciality Reinsurance) - 100% Remote,United States,34616,Mid-Senior level,NA
+3884857695,Avesta Computer Services,Senior ETL Data Engineer - Reinsurance - Remote,United States,34616,Mid-Senior level,NA
+3884917966,Zocdoc,Principal Data Scientist,"New York, NY",167902,Entry level,NA
+3884930756,Titan America,Data Engineer,"Roanoke, VA",21709,Associate,NA
+3884989874,Amazon,"Data Engineer I, Revenue Reporting Service","Seattle, WA",1586,NA,NA
+3884996001,Amazon,"Data Scientist, PeopleInsight","Seattle, WA",1586,NA,NA
+3885101852,Ascentt,Data Engineer,"Dallas, TX",230220,NA,NA
+3885102567,Ascentt,Sr. Data Scientist - IoT and Manufacturing,"Dallas, TX",230220,NA,NA
+3885102764,ATC,Data Analyst-VA,"Virginia, United States",2736308,Entry level,NA
+3885103563,Ascentt,Senior Data Scientist - Forecasting,"Dallas, TX",230220,NA,NA
+3885103769,ATC,Data Analyst-WA,"Washington, United States",2736308,Entry level,NA
+3885104538,ATC,Data Analyst-IL,"Illinois, United States",2736308,Entry level,NA
+3885106434,ATC,Data Analyst-CA,"California, United States",2736308,Entry level,NA
+3885106436,ATC,Data Analyst-Tx,"Texas, United States",2736308,Entry level,NA
+3885107986,Celebal Technologies,Data Engineer (Internship),"Dallas, TX",27135632,NA,NA
+3885109052,ATC,Data Analyst-NY,"New York, United States",2736308,Entry level,NA
+3885109955,Data Glacier,Data Analyst/Data Science/NLP (Intern apr 30) DIN01,United States,69739391,NA,NA
+3885113214,ZealTech,Data Analyst - Power BI & SQL,"San Francisco, CA",2722174,NA,NA
+3885805686,Capital One,Data Engineer,"Richmond, VA",1419,Entry level,NA
+3885806687,Capital One,Data Engineer,"McLean, VA",1419,Entry level,NA
+3885807632,SynergisticIT,Junior data scientist/software programmer,"Denver, CO",66321745,Entry level,NA
+3885807866,FedEx Logistics,Data Analyst II,"La Vergne, TN",71575605,NA,NA
+3885808491,Capital One,Data Engineer,"Richmond, VA",1419,Entry level,NA
+3885810350,Capital One,Data Engineer,"Plano, TX",1419,Entry level,NA
+3885810353,Capital One,Data Engineer,"McLean, VA",1419,Entry level,NA
+3885811432,SynergisticIT,Junior data scientist/java programmer,"Kirkland, WA",66321745,Entry level,NA
+3885811482,SynergisticIT,Junior data scientist/ java programmer,"Phoenix, AZ",66321745,Entry level,NA
+3885811837,Old Second National Bank,"Retail Data Analyst | Hybrid - Aurora, IL","Aurora, IL",35094,Associate,NA
+3885812023,SynergisticIT,Junior data scientist/software developer,"Austin, Texas Metropolitan Area",66321745,Entry level,NA
+3885812100,SynergisticIT,junior java programmer/data scientist,"Houston, TX",66321745,Entry level,NA
+3885814035,SynergisticIT,junior data scientist/ data engineer,"Virginia, United States",66321745,Entry level,NA
+3885820475,Seattle Information Technology Department,"Senior Data Engineer - ITP-A, Exempt","Seattle, WA",37248822,Mid-Senior level,NA
+3885822305,Oshkosh Corporation,"Director, Data Engineering","Oshkosh, WI",165353,Director,NA
+3885828275,TEKsystems,Data Scientist,"Irving, TX",2152,Entry level,NA
+3885828639,Philips,Clinical Adoption Data Scientist,"Cambridge, MA",1090,NA,NA
+3885834221,Philips,Technical System Health Data Scientist,"Cambridge, MA",1090,NA,NA
+3885867241,Spectrum,Data Scientist,"Stamford, CT",18425303,Entry level,NA
+3886212562,InterEx Group,AWS Data Analyst,"Aurora, IL",10447496,Mid-Senior level,NA
+3886453362,Valor Equity Partners,Data Scientist,"Chicago, IL",96781,Associate,NA
+3886457142,American Express,Data Engineer,"Phoenix, AZ",1277,Mid-Senior level,NA
+3886477578,The Judge Group,Data analyst with marketing analytics exp. (1039812),"San Francisco, CA",8117,Entry level,NA
+3886482728,Infocepts Inc,Data Analyst,"Texas City, TX",74969321,NA,NA
+3886482903,NA,Data Analyst,"Etna, OH",NA,NA,NA
+3886814005,EXL,GCP Data Engineer,"Hartford, CT",163743,NA,NA
+3886824626,enableIT,Senior Data Engineer,"Houston, TX",311835,Mid-Senior level,NA
+3886830826,Cephas Consultancy Services Private Limited,Data Scientist,"California, United States",7940537,NA,NA
+3886845634,Trilogy International,Data Engineering Manager,"Charlotte, NC",5396344,Mid-Senior level,NA
+3886877947,ATC,Data Analyst-CA,"California, United States",2736308,Entry level,NA
+3886877951,ATC,Data Analyst-IL,"Illinois, United States",2736308,Entry level,NA
+3886879480,ATC,Data Analyst-VA,"Virginia, United States",2736308,Entry level,NA
+3886879484,ATC,Data Analyst-NY,"New York, United States",2736308,Entry level,NA
+3886881338,Avesta Computer Services,Senior Data Engineer - Python,United States,34616,Mid-Senior level,NA
+3886882309,ATC,Data Analyst-Tx,"Texas, United States",2736308,Entry level,NA
+3886883057,Avesta Computer Services,Senior ETL Data Engineer,United States,34616,Mid-Senior level,NA
+3886883127,ATC,Data Analyst-WA,"Washington, United States",2736308,Entry level,NA
+3886885021,Revature,Senior Data Engineer,United States,10510386,Mid-Senior level,NA
+3886885615,Insight Global,Data Analyst,United States,11056,Associate,NA
+3886895303,Insight Global,Data Analyst,United States,11056,Associate,NA
+3887103333,EPITEC,Data Analyst,"Jacksonville, FL",25461,Mid-Senior level,NA
+3887104313,Selby Jennings,"Senior Data Engineer (Azure, Python, SQL)","Boston, MA",106584,Mid-Senior level,NA
+3887106293,Xyant Services,Big Data Engineer with AWS (Only W2 Candidates),"Manhattan, NY",35496599,NA,NA
+3887107137,Minnesota Department of Revenue,Income and Withholding Tax Data Analyst,"Minneapolis, MN",3364317,Associate,NA
+3887499080,Athene,Sales Data Analyst/Consultant,"West Des Moines, IA",3362620,Entry level,NA
+3887499893,Silicon Valley Bank,Business Data Analyst – Foreign Exchange,"Raleigh, NC",492307,NA,NA
+3887571898,Fidelity Investments,"Senior Data Engineer (Java, Spring boot, AWS)","Westlake, TX",1307,NA,NA
+3887572653,Progressive Insurance,Data Scientist or Senior,United States,3264,NA,NA
+3887572685,Lovesac,Sr. Data Engineer,"Stamford, CT",42875,Mid-Senior level,NA
+3887576711,Cisco ThousandEyes,Principal AI/ML Data Scientist,"San Francisco, CA",687352,Mid-Senior level,NA
+3887596617,Horizontal Talent,Data Engineering Analyst,"Denver, CO",29289303,Entry level,NA
+3887701756,OP Labs,Senior Data Engineer,United States,71494446,Mid-Senior level,NA
+3887705985,NBC Sports Next,Data Engineer II - NBC Sports Next,"Orlando, FL",79809662,Associate,NA
+3887710955,Trimble Inc.,Data Science/Data Engineering Intern,"Minnetonka, MN",5160,Mid-Senior level,NA
+3887713726,Expert Technical Solutions,Junior Data Scientist - Python /Modeling,"Atlanta, GA",955494,Entry level,NA
+3887716629,Vericast,Senior Staff Data Scientist (Remote),"Austin, TX",64594777,Mid-Senior level,NA
+3887718042,HireTalent - Diversity Staffing & Recruiting Firm,Office/Administration - Data Analyst Lv3 #: 24-02340,"Wayzata, MN",1028156,Mid-Senior level,NA
+3887719397,Talentify.io,Domo Data Analyst (REMOTE),United States,2204084,Entry level,NA
+3887833724,Mindlance,Data Analyst,"Austin, TX",47040,Mid-Senior level,NA
+3887840211,The Hawk Group,Data Engineer,"Anchorage, AK",640071,Mid-Senior level,NA
+3887876186,VolunteerMatch,Volunteer: Data Engineer,"Spokane, WA",22503,Associate,"This position requires the following skills: Business Analysis, Python, Software Engineering, SQL / MySQL"
+3887876187,VolunteerMatch,Volunteer: Data Scientist,"Spokane, WA",22503,Associate,"This position requires the following skills: Database Administration, Security / Network Administration, Software Engineering, SQL / MySQL"
+3887881849,ClearanceJobs,Data Scientist - Clearance Required with Security Clearance,"Quantico, VA",1007957,Entry level,NA
+3887885615,"CPS, Inc.",Trader - Data Scientist,"Chicago, IL",5750,Mid-Senior level,NA
+3887948207,"Elegant Enterprise-Wide Solutions, Inc.",Data Analyst 3,"Chesterfield, VA",66592097,Mid-Senior level,NA
+3887985726,Signify Technology,Senior Data Scientist,United States,15087386,Mid-Senior level,NA
+3887988563,Signify Technology,Senior Data Scientist,United States,15087386,Mid-Senior level,NA
+3888029592,NA,Data Engineer II,"New York, NY",NA,NA,NA
+3888036167,Lemon Tek,Data Analyst,United States,102801165,NA,NA
+3888432795,Jacobs,Transportation Data Scientist,"Austin, TX",4025,NA,NA
+3888476337,Aurum Search Limited,Data Engineer,New York City Metropolitan Area,5382377,Mid-Senior level,NA
+3888476608,The Walt Disney Company,Sr Data Scientist,"Lake Buena Vista, FL",1292,Mid-Senior level,NA
+3888499407,Amazon,"Data Engineering Manager, Defensive Security","Seattle, WA",1586,Mid-Senior level,NA
+3888826255,TechDoQuest,Data Engineer,"Los Angeles, CA",18957106,NA,NA
+3888933774,FedEx Dataworks,Data Engineer - All Levels,United States,86967006,NA,NA
+3888937935,KACE Company,Data Analyst,"Washington, DC",70896556,Entry level,NA
+3888937982,Dice,Data Scientist - TS/SCI Hybrid,"Bethesda, MD",6849,Entry level,NA
+3888938024,Ochsner Health,iO Data Scientist,"New Orleans, LA",25522,Entry level,NA
+3888961649,Eversource Energy,"Data Analyst, Energy Efficiency (Hybrid)","Berlin, CT",10051,Entry level,NA
+3888994430,TikTok,Data Engineer - USDS,"Los Angeles, CA",33246798,NA,NA
+3889103440,InMobi,"Staff Data Scientist, SSP.","San Mateo, CA",272972,NA,NA
+3889108423,Aeva,Principal Data Engineer,"Mountain View, CA",18290176,Mid-Senior level,NA
+3889120272,International Paper,Data Analyst,"Cedar Rapids, IA",3242,NA,NA
+3889125185,Sourcechange,Vice President of Data Engineering,United States,100246422,NA,NA
+3889173190,Talent Job Seeker,"Principal Data Engineer, Analytics Engineering",United States,102368941,Mid-Senior level,NA
+3889232447,Homesite Insurance,"Data Analyst, Contact Center Analytics (Flex Home/Office)",Denver Metropolitan Area,25194,Entry level,NA
+3889282674,S&P Global,Data Scientist Intern,"New York, NY",2934,NA,NA
+3889288309,Recursion,Staff Data Scientist,"Salt Lake City, UT",4990022,Entry level,NA
+3889288318,Recursion,Senior Data Scientist,"Salt Lake City, UT",4990022,Mid-Senior level,NA
+3889413788,Talentify.io,Remote Data Analyst,United States,2204084,Entry level,NA
+3889414779,Talentify.io,Data Analyst -AITS (Hybrid/Remote),United States,2204084,Entry level,NA
+3889414951,ClearanceJobs,Data Analyst Supporting the FBI with Security Clearance,"Linthicum, MD",1007957,Entry level,NA
+3889415921,ClearanceJobs,Senior Data Analyst/Assessor Level III with Security Clearance,"Arlington, VA",1007957,Mid-Senior level,NA
+3889417419,Talentify.io,Data Analyst - Remote,United States,2204084,Entry level,NA
+3889417436,Talentify.io,Cyber Security Specialist - Data Engineer L4 (Remote),United States,2204084,Entry level,NA
+3889715419,TELUS International AI Data Solutions,Online Data Analyst,"Houston, TX",6611939,Entry level,NA
+3889717585,Cogent Communications,"Optical Network Documentation and Data Engineer, W","Washington, DC",163139,Entry level,NA
+3889718326,TELUS International AI Data Solutions,Online Data Analyst,"San Antonio, TX",6611939,Entry level,NA
+3889725871,TELUS International AI Data Solutions,Online Data Analyst,"Eagle Pass, TX",6611939,Entry level,NA
+3889732556,TELUS International AI Data Solutions,Online Data Analyst,"Corpus Christi, TX",6611939,Entry level,NA
+3889734996,TELUS International AI Data Solutions,Online Data Analyst,"Frisco, TX",6611939,Entry level,NA
+3889735920,TELUS International AI Data Solutions,Online Data Analyst,"Plano, TX",6611939,Entry level,NA
+3889737876,TELUS International AI Data Solutions,Online Data Analyst,"Katy, TX",6611939,Entry level,NA
+3889738868,TELUS International AI Data Solutions,Online Data Analyst,"Killeen, TX",6611939,Entry level,NA
+3889739033,TELUS International AI Data Solutions,Online Data Analyst,"Waco, TX",6611939,Entry level,NA
+3889741080,ON Data Staffing,Lead Data Engineer - Databricks,United States,98570070,Director,NA
+3889751839,Gloo Digital,Lead Data Scientist,Atlanta Metropolitan Area,81297729,Mid-Senior level,NA
+3889756865,Matlen Silver,Data Analyst/Engineer Techno Functional Analyst (Jersey City) x2,"New Jersey, United States",16127,NA,NA
+3889765984,Agility Partners,Principal Data Engineer,Cincinnati Metropolitan Area,16167895,Mid-Senior level,NA
+3889776693,Radley James,Data Scientist - Equity Trading,New York City Metropolitan Area,1116353,Associate,NA
+3889782006,The Judge Group,Data Engineer,"Houston, TX",8117,Mid-Senior level,NA
+3890889494,WTW,Mental Health Parity Clinical Operational Data Analyst,"Boston, MA",3994,Mid-Senior level,NA
+3890889935,DATAMETRICS SOFTWARE SYSTEMS INC.,Data Analyst,"Newark, NJ",33046677,NA,NA
+3890890588,Rylem Staffing,Data Engineer,"Redmond, WA",1003064,Mid-Senior level,NA
+3890891510,Accolite,Data Engineer,"New York, United States",235348,Mid-Senior level,NA
+3890891520,Maxonic,Data Scientist (HR Metrics),United States,21784,Associate,NA
+3890891574,"AppLab Systems, Inc",Senior Azure Data Engineer,United States,10604245,Mid-Senior level,NA
+3890892407,TalentBridge,Data Analyst,New York City Metropolitan Area,95313,Mid-Senior level,NA
+3890892477,Equity Staffing Group,Data Analyst,"Eden Prairie, MN",416904,Associate,NA
+3890892489,Stanley David and Associates,Senior Data Engineer,"Charlotte, NC",2499431,NA,NA
+3890892502,Publicis Sapient,"Manager, AWS Data Engineer","Atlanta, GA",10801655,Mid-Senior level,NA
+3890892607,SDF Labs,Senior Data Engineer,"Seattle, WA",81483612,NA,NA
+3890894244,UST,Junior Data Analyst,"Norfolk, VA",12770,Associate,NA
+3890894461,RCG Infosoft Incorporation,Data Engineer,"Plano, TX",99248566,NA,NA
+3890895137,Akkodis,Senior Data Analyst,"New York, NY",79383535,Mid-Senior level,NA
+3890896231,MatchPoint,Lead Data Analyst,San Francisco Bay Area,223659,Associate,NA
+3891009627,"Staff Smart, Inc.",Data Engineer,"New York, NY",381097,Mid-Senior level,NA
+3891011139,Mainz Brady Group,Lead Data Scientist,United States,52638,Mid-Senior level,NA
+3891018156,Techions,Data Scientist - Databricks,"Santa Clara, CA",15317525,NA,NA
+3891058577,Advia Credit Union,Data Engineer,"Kalamazoo, MI",508668,Mid-Senior level,NA
+3891063859,Publicis Sapient,Manager Data Engineering- AWS,"Boston, MA",10801655,Mid-Senior level,NA
+3891064993,Publicis Sapient,Manager Data Engineering- AWS cloud,"Atlanta, GA",10801655,Mid-Senior level,NA
+3891067775,HCA Healthcare,Data Analyst,Nashville Metropolitan Area,3626,Mid-Senior level,NA
+3891069596,Publicis Sapient,Manager Data Engineering- AWS Cloud,"New York, NY",10801655,Mid-Senior level,NA
+3891069941,InfoVision Inc.,Data Analyst,"South Dakota, United States",282692,Entry level,NA
+3891069967,FUSTIS LLC,Data Scientist (Human Services experience),Washington DC-Baltimore Area,87467766,NA,NA
+3891070562,Publicis Sapient,Data Engineering Architect- AWS Cloud,"Dallas, TX",10801655,Mid-Senior level,NA
+3891072143,Publicis Sapient,Manager Data Engineering- AWS cloud,"Boston, MA",10801655,Mid-Senior level,NA
+3891072371,WalkWater Technologies,Junior Data Analyst (Logistics),"Austin, TX",3356865,Mid-Senior level,NA
+3891072418,Eliassen Group,Systems/Data Analyst - SQL/ETL,"Durham, NC",13816,Mid-Senior level,NA
+3891074173,Publicis Sapient,Manager Data Engineering- AWS Cloud,"New York, NY",10801655,Mid-Senior level,NA
+3891074385,Publicis Sapient,Senior Associate Data Engineer - Azure Cloud,"Boston, MA",10801655,Mid-Senior level,NA
+3891074414,4A IT Services LLC,"Sr Data engineer with AWS, PYTHON (W2)",United States,68257427,NA,NA
+3891074608,Parallel,Senior Data Analyst,United States,71014184,Mid-Senior level,NA
+3891074620,Technology Hub Inc,Azure Data Engineer,"Plano, TX",18587408,NA,NA
+3891075029,Publicis Sapient,Manager Data Engineering- AWS cloud,"Atlanta, GA",10801655,Mid-Senior level,NA
+3891075420,Enterprise Peak,Senior Data Scientist,United States,2302172,Mid-Senior level,NA
+3891075843,AtekIT,Data Engineer,"New York, NY",75603990,NA,NA
+3891076249,Office of Energy Infrastructure Safety,Data Engineer,"California, United States",79766923,Associate,NA
+3891076521,Optomi,Data Analyst,United States,2684081,Mid-Senior level,NA
+3891077029,Publicis Sapient,Senior Associate Data Engineer - Azure Cloud,"New York, NY",10801655,Mid-Senior level,NA
+3891078515,Insight Global,Lead Big Data Engineer (NO SPONSORSHIP),United States,11056,Mid-Senior level,NA
+3891079139,Vaco,Senior Data Engineer,"Waukesha, WI",11229,Mid-Senior level,NA
+3891081101,Acunor,Cloud Data Engineer,United States,69732469,Mid-Senior level,NA
+3891093340,Experity,"Data Analyst (Go-To-Market Team) - Hybrid / Atlanta, GA","Atlanta, GA",14034745,Entry level,NA
+3891098097,Concord,Senior Data Engineer,"Minneapolis, MN",51301,Mid-Senior level,NA
+3891200094,Akkodis,Data Scientist,"Austin, Texas Metropolitan Area",79383535,Mid-Senior level,NA
+3891257314,Infotree Global Solutions,Data Scientist,"Austin, TX",35690611,Mid-Senior level,NA
+3891267783,Planet Pharma,Data Scientist III,"North Chicago, IL",2474662,NA,NA
+3891267987,Experis,Data Analyst,"New Albany, OH",2203697,Entry level,NA
+3891267992,SkyWater Search Partners,Financial Data Analyst,"St Cloud, MN",2872912,Mid-Senior level,NA
+3891276702,Ocado Group,Senior Data Analyst - Ecommerce & Marketing,"Monroe, MI",165276,Mid-Senior level,NA
+3891282410,FIS,Machine Learning Data Engineer Specialist,"Seattle, WA",3128,Mid-Senior level,NA
+3891291073,JPMorgan Chase & Co.,Data Scientist-Sr Associate,"Plano, TX",1068,NA,NA
+3891298676,Mainz Brady Group,Lead Data Scientist,"Seattle, WA",52638,Mid-Senior level,NA
+3891804092,Synechron,Data Engineer,"Charlotte, NC",15506,Entry level,NA
+3891819692,RICEFW Technologies Inc,Data Engineer (LEAD),"Allentown, PA",2840488,Mid-Senior level,NA
+3891837772,Havicma Logistics,Data Scientist,United States,99546010,NA,NA
+3894204625,USAA,Data Scientist (Intermediate),"Plano, TX",4501,Entry level,NA
+3894206499,USAA,Data Scientist (Intermediate),"Colorado Springs, CO",4501,Entry level,NA
+3894207377,USAA,Data Scientist (Intermediate),"Tampa, FL",4501,Entry level,NA
+3894209906,Tier4 Group,Senior Data Analyst,"Atlanta, GA",3603143,Mid-Senior level,NA
+3894210138,USAA,Data Scientist (Intermediate),"San Antonio, TX",4501,Entry level,NA
+3894211185,Scale AI,"Data Scientist, Marketplace Incentives",San Francisco Bay Area,17998520,Entry level,NA
+3894213012,Federal Transit Administration,Transportation Program Specialist/ Transportation Data Analyst,"Washington, DC",2204354,Entry level,NA
+3894213406,Akkodis,Data Engineer - 100% Remote - Contract to Hire (W2),United States,79383535,Mid-Senior level,NA
+3894215500,Visionary Innovative Technology Solutions LLC,Onsite job (Only W2 role) :: Data Analyst :: contract,"Wichita, Kansas Metropolitan Area",64877765,Associate,NA
+3894218328,"Delta System & Software, Inc.",Data Analyst,"Chesterfield, VA",690587,Mid-Senior level,NA
+3894281851,Synechron,Azure Data Engineer,"Weehawken, NJ",15506,Mid-Senior level,NA
+3894285745,Capital One,"Senior Data Scientist, Experimentation & Personalization","New York, NY",1419,Mid-Senior level,NA
+3894285749,Capital One,"Senior Data Scientist, Experimentation & Personalization","Cambridge, MA",1419,Mid-Senior level,NA
+3894286618,Capital One,"Senior Data Scientist, - AI Foundations, Personalization","McLean, VA",1419,Mid-Senior level,NA
+3894287435,Capital One,"Senior Data Scientist, Experimentation & Personalization","McLean, VA",1419,Mid-Senior level,NA
+3894287443,Capital One,"Senior Data Scientist, - AI Foundations, Personalization","Cambridge, MA",1419,Mid-Senior level,NA
+3894288352,Capital One,"Senior Data Scientist, - AI Foundations, Personalization","New York, NY",1419,Mid-Senior level,NA
+3894288357,Capital One,"Senior Data Scientist, Experimentation & Personalization","San Francisco, CA",1419,Mid-Senior level,NA
+3894289299,Capital One,"Senior Data Scientist, - AI Foundations, Personalization","San Francisco, CA",1419,Mid-Senior level,NA
+3894291104,Capital One,Sr. Distinguished Data Engineer,"McLean, VA",1419,Mid-Senior level,NA
+3894294473,Aditi Consulting,Data Analyst I,"Austin, TX",2985733,Mid-Senior level,NA
+3894298512,FedEx Logistics,Data Analyst 2,"La Vergne, TN",71575605,NA,NA
+3894298670,Mastech Digital,Data Engineer,"Pittsburgh, PA",3684,Mid-Senior level,NA
+3894299338,Akkodis,Big Data Engineer/Mandarin Speaking,"San Jose, CA",79383535,Associate,NA
+3894400441,Akkodis,Data Engineer,United States,79383535,Mid-Senior level,NA
+3894417070,Wipro,Azure Synapse Data Engineer,"Dallas, TX",1318,NA,NA
+3894526754,University of Virginia,Intermediate Data Scientist,"Charlottesville, VA",4298,Entry level,NA
+3894544709,Capital One,Senior Data Analyst,"McLean, VA",1419,Mid-Senior level,NA
+3894548016,Capital One,Senior Data Analyst,"Richmond, VA",1419,Mid-Senior level,NA
+3894549561,Honeywell,Data Engineer II,"Charlotte, NC",1344,Entry level,NA
+3894551518,Tata Consultancy Services,Data Analyst,"Bellevue, WA",1353,Entry level,Data Analyst
+3894560635,Spotter,Senior Data Scientist,"Culver City, CA",28439179,Mid-Senior level,NA
+3894565071,"Kiss Products, Inc.",Data Engineer Manager,"Port Washington, NY",144240,Mid-Senior level,NA
+3894585193,FastTek Global,Data Engineer General,"Dearborn, MI",64550438,Mid-Senior level,NA
+3894613123,Russell Tobin,Data Engineer,"Austin, Texas Metropolitan Area",827183,Mid-Senior level,NA
+3894627666,USAA,Data Scientist Lead – Telematics (Remote),"Houston, TX",4501,Mid-Senior level,NA
+3894627680,USAA,Data Scientist Lead – Telematics (Remote),"San Antonio, TX",4501,Mid-Senior level,NA
+3894627870,USAA,Data Scientist Lead – Telematics (Remote),"Irving, TX",4501,Mid-Senior level,NA
+3894629384,USAA,Data Scientist Lead – Telematics (Remote),"Corpus Christi, TX",4501,Mid-Senior level,NA
+3894633106,USAA,Data Scientist Lead – Telematics (Remote),"San Antonio, TX",4501,Mid-Senior level,NA
+3894634092,USAA,Data Scientist Lead – Telematics (Remote),"Austin, TX",4501,Mid-Senior level,NA
+3894662724,NA,Founding Data Scientist,United States,NA,NA,NA
+3894844108,Nippon Life Benefits,Medical Data Analyst / Programmer,"New York, NY",352242,NA,NA
+3894863970,Advantis Global is becoming INSPYR Solutions,Data Engineer II,"Bellevue, WA",336165,Mid-Senior level,NA
+3894875140,Frost,Data Analyst - Financial,"San Antonio, TX",13256,Entry level,NA
+3894876574,Genmab,"(Senior) Bioinformatics Data Engineer, Translational and Quantitative Sciences Data Engineering","Princeton, NJ",12969,Mid-Senior level,NA
+3894885732,Burton Recruitment Limited,Data Scientist - AI Investment,United States,10797226,Mid-Senior level,NA
+3894899896,OtterBase,Lead Data Engineer,"Nashville, TN",35259,Mid-Senior level,"Lead, Data, Engineer, Python, Databricks, Snowflake, AWS, Amazon Web Services, MongoDB"
+3894903014,E-Solutions,Data Scientist,"California, United States",750072,Mid-Senior level,NA
+3894904791,Sigma Resources LLC,Data Engineer,"Harrisburg, PA",1098458,Mid-Senior level,NA
+3894946919,McKesson,Senior Director – Enterprise Data Engineering,"Illinois, United States",1900,Director,NA
+3894950145,Complete Staffing Solutions,Data Analyst,"Atlanta, GA",1457175,Entry level,NA
+3894953007,McKesson,Data Engineer,"Dallas, TX",1900,Entry level,NA
+3894954189,Educated Solutions Corp,Senior Data Analyst,"Richardson, TX",1468533,Associate,NA
+3894957331,Talent Groups,Senior Azure Data Engineer,United States,51701268,Mid-Senior level,NA
+3894976284,"Pyramid Consulting, Inc",Lead Data Engineer,"Wilmington, DE",165602,NA,NA
+3894993415,Cognizant,Sr. AWS Data Engineer - Hybrid,"Baltimore, MD",1680,Mid-Senior level,NA
+3895200320,NA,Data Engineer,New York City Metropolitan Area,NA,NA,NA
+3895203046,Themesoft Inc.,Big Data Engineer,"Dallas, TX",1056670,Mid-Senior level,NA
+3895208539,"The GEO Group, Inc.",Senior Financial Data Analyst,"Boulder, CO",47738,Mid-Senior level,NA
+3895215696,Quantum World Technologies Inc.,Data Analyst,United States,13331595,Mid-Senior level,NA
+3895222147,bp,Senior Data Analyst,"Chicago, IL",1389,Associate,NA
+3895242027,Coders Data,Data Analyst,New York City Metropolitan Area,14508644,Entry level,NA
+3895271816,"Morgan, Lewis & Bockius LLP",Practice Group Senior Data Analyst,"Philadelphia, PA",5734,Mid-Senior level,NA
+3895487876,Community Foundation for a greater Richmond,Data Analyst,"Richmond, VA",77710,NA,NA
+3895523616,CGI,Data Engineer SME (Data Collection Engines) - U.S. Citizenship Required,"Fairfax, VA",1415,Entry level,NA
+3895525688,Chime,"Senior/Lead Data Analyst, Finance & Strategy","San Francisco, CA",3738695,Mid-Senior level,NA
+3895540929,Nordstrom,Credit Data Analyst 3 (Remote),"Centennial, CO",3379,Mid-Senior level,NA
+3895542866,Nordstrom,Credit Data Analyst 2 (Remote),United States,3379,Mid-Senior level,NA
+3895547335,Motion Recruitment,Staff Data Engineer / AI / Snowflake,"Los Angeles, CA",5887,Mid-Senior level,NA
+3895561713,TikTok,TikTok Shop - Data Scientist - User Growth,"Seattle, WA",33246798,NA,NA
+3895566592,TikTok,TikTok Shop - Data Scientist - User Growth,"San Jose, CA",33246798,NA,NA
+3895804625,Goldman Sachs,"DevOps Engineer, Transaction Banking, Cloud Data Engineering","Dallas, TX",1382,Mid-Senior level,NA
+3895805812,Klaviyo,"Senior Data Scientist, Developer Experience","Boston, MA",2908815,Mid-Senior level,NA
+3895809190,Klaviyo,"Senior Data Scientist, Internal Operations","Boston, MA",2908815,Mid-Senior level,NA
+3895815353,Interview Kickstart,Part-time Mentor - Data Analyst/Business Analyst (DABA),United States,4790142,Mid-Senior level,NA
+3895829596,"Akraya, Inc.",Data Engineer 3: 24-00989,"Austin, TX",41771,Mid-Senior level,NA
+3895830502,Interview Kickstart,Part-time Data Engineering Mentor,United States,4790142,Mid-Senior level,NA
+3898155777,Catapult Solutions Group,Data Analyst,Cincinnati Metropolitan Area,3077586,Mid-Senior level,NA
+3898156583,Swish Analytics,NHL Data Scientist,United States,3886282,Mid-Senior level,NA
+3898157558,NA,Azure Data Engineer ,United States,NA,Mid-Senior level,NA
+3898157782,Chmura Economics & Analytics,Data Engineer,"Cleveland, OH",89224,Entry level,NA
+3898157998,"First Tek, Inc.",Data Analyst,"Los Angeles County, CA",74063,Associate,NA
+3898158341,Ignitec Inc,Data Engineer with OCR Expertise in Life Sciences,"Sterling, VA",29279018,NA,NA
+3898158374,"TechGroup America ""TGA"" - A Software Development, Data Analytics and Digital IT Solutions Enterprise",Data Analyst,"Los Angeles, CA",13316106,NA,NA
+3898158978,Softcom Systems Inc,Data Management – Business Data Analyst,"Dallas, TX",13655403,NA,NA
+3898159293,Emancro,Machine Learning Operations and Data Engineer,"Berkeley, CA",82537304,NA,NA
+3898159304,TOPSYS IT,Data Scientist with GenAI,"Plano, TX",12991466,NA,NA
+3898159929,GameChanger,"Senior Data Engineer, Governance",United States,1618074,Mid-Senior level,NA
+3898160133,blueStone Staffing,Data Analyst 1 - 10315,United States,614775,Associate,NA
+3898160892,Centraprise,Data Scientist,"Bentonville, AR",13345578,Mid-Senior level,NA
+3898160959,SysMind,Snowflake Data Analyst,"New York, NY",85964,NA,NA
+3898161825,Alpha Net,Business Data Analyst,"Fremont, CA",2377207,NA,NA
+3898162076,Ignitec Inc,Data Engineer with OCR Expertise in Life Sciences,"Sterling, VA",29279018,NA,NA
+3898162921,Qualitative Financials,GCP Data Engineer,"San Francisco, CA",79830368,NA,NA
+3898164926,Vervent,Data Analyst,"San Diego, CA",26494838,Associate,NA
+3898165862,Healthfirst,"Data Analyst, Medicare Sales & Retention","New York, NY",16589,Entry level,NA
+3898166023,ektello,Data Analyst,"Warren, MI",10545600,Entry level,NA
+3898166042,STONE Resource Group,Data Analyst,"Roswell, GA",1211135,Associate,NA
+3898166810,IT America Inc,Data Engineer -W2,"Richmond, VA",1138065,NA,NA
+3898167157,Cypress HCM,Business Data Analyst,Los Angeles Metropolitan Area,112948,Associate,NA
+3898167298,AVAILABILITY Professional Staffing,Senior Data Scientist,"San Luis Obispo County, CA",358102,Director,NA
+3898167767,Curinos,Senior Data Engineering Manager (US) Consumer Pod,"New York, NY",165229,Mid-Senior level,NA
+3898168754,Avesta Computer Services,Senior ETL Data Engineer - Reinsurance - Remote,United States,34616,Mid-Senior level,NA
+3898168987,Intellectt Inc,Data Analyst,"Alameda, CA",14632005,Mid-Senior level,NA
+3898170038,PamTen Inc,AEP consultant / Data Engineer,Washington DC-Baltimore Area,1984030,Mid-Senior level,NA
+3898170148,Stanley David and Associates,Senior Data Analyst,"Charlotte, NC",2499431,NA,NA
+3898171094,Koantek,Data Engineer,United States,78632700,Mid-Senior level,NA
+3898172866,Experis,Data Analyst II,"Alameda, CA",2203697,Entry level,NA
+3898173500,truData Solutions,Senior Data Analyst - Alteryx,"Santa Monica, CA",18785553,Mid-Senior level,NA
+3898174074,Lume Consulting Group,Data Analyst,Greater Sacramento,18863748,NA,NA
+3898174637,Experis,Talent Management Consultant / Data Analyst,"Princeton, NJ",2203697,Mid-Senior level,NA
+3898176391,The Lubrizol Corporation,Data Scientist / Statistician Intern Summer 2024 (Bachelor's),"Wickliffe, OH",8017,NA,NA
+3898177207,Charlie Health,RCM Data Analyst,"Nashville, TN",66938931,Entry level,NA
+3898177352,The Lubrizol Corporation,Data Scientist / Statistician Intern Summer 2024 (MS/PhD),"Wickliffe, OH",8017,NA,NA
+3899511988,GLDS,Data Analyst,"Carlsbad, CA",378540,NA,NA
+3899516760,SPECTRAFORCE,Data Analyst (Onsite role - only W2),"Plainsboro, NJ",71350,Associate,NA
+3899520843,ALOIS Solutions,Data Engineer,"San Diego, CA",13242175,Mid-Senior level,NA
+3899520919,TekInvaderZ,Senior Data Analyst,United States,3824621,NA,NA
+3899520930,ZealoTech People,Data Analyst,"Irvine, CA",26574100,Entry level,NA
+3899522047,Synechron,Sr. Data Engineer _ NYC,New York City Metropolitan Area,15506,Mid-Senior level,NA
+3899522302,"Visium Resources, Inc.",Data Analyst,"Irvine, CA",321125,Associate,NA
+3899522533,Evergy,Financial and Data Analyst – Regulatory Compliance,"Kansas City, MO",28648492,Mid-Senior level,NA
+3899523363,Ehub Global Inc,Lead Data Analyst,"Denver, CO",79482021,Mid-Senior level,NA
+3899523484,Agility Partners,Data Engineer,"Charlotte, NC",16167895,Mid-Senior level,NA
+3899524261,"Riverside Staffing, LLC",Data Scientist,"Austin, Texas Metropolitan Area",72234947,Mid-Senior level,NA
+3899527224,PowerToFly,Data Analyst,"Purchase, NY",5150994,NA,NA
+3899527301,Mosaic Labs,Data Engineer,United States,89793096,NA,NA
+3899527467,Avant-garde Health,Data Analyst,Greater Boston,6496262,Mid-Senior level,NA
+3899528339,EA Team Inc,Alteryx Data Analyst ( W2 Contract,"Manhattan Beach, CA",2314143,NA,NA
+3899529161,RJC Group,Lead Data Analyst,"Fairfax County, VA",10333877,Mid-Senior level,NA
+3899531598,Compunnel Inc.,Big Data Engineer (Java+Python+AWS),"Tampa, FL",16690,NA,NA
+3899532438,Deloitte,Data Scientist - GenAI - Solution Specialist - Hybrid,"Lake Mary, FL",1038,NA,NA
+3899533507,Provision People,Senior Data Engineer,"Norwalk, CT",12951519,Mid-Senior level,NA
+3899534432,"LanceSoft, Inc.",Data Analyst,"Richmond, VA",16388,Mid-Senior level,NA
+3899534455,Mastech Digital,Data Engineer(Informatica / Snaplogic/ SQL),"Dallas, TX",3684,NA,NA
+3899534991,Integration International Inc.,Data Engineer,"Los Angeles, CA",92309,Mid-Senior level,NA
+3899535180,"HealthCare Partners, New York","Data Analyst, Business Intelligence","Garden City, NY",590578,NA,NA
+3899536364,"Hanker Systems, Inc.",Data Engineer,"Santa Clara, CA",78063959,NA,NA
+3899538732,Russell Tobin,Data Analyst,"San Jose, CA",827183,Mid-Senior level,NA
+3899540393,"Denken Solutions, Inc.",Principal Data Scientist,"Round Rock, TX",2922575,NA,NA
+3899540515,Numero Data,Data Analyst,"Herndon, VA",10520445,Mid-Senior level,NA
+3899541036,Patton Labs Inc,Marketing and Sales Data Analyst - Only W2,"Troy, MI",64618994,NA,NA
+3899935022,Brooksource,Data Analyst,United States,18476,Associate,NA
+3900072860,Best High Technologies LLC (BHT),Data Engineer,"New Jersey, United States",9312786,Associate,NA
+3900073395,HRUCKUS,Data Analyst,"Washington, DC",5356751,Mid-Senior level,NA
+3900078921,Robinhood,"Senior Data Scientist Analytics, Crypto","New York, NY",3254263,Mid-Senior level,NA
+3900080554,Tata Consultancy Services,Data Analyst,"Charlotte, NC",1353,Entry level,"Data Analyst , SQL"
+3900940786,MITRE,Intermediate Data Analyst,"McLean, VA",3848,Entry level,NA
+3900940824,Thumbtack,"Staff Data Engineer, Marketing Technology",United States,912833,NA,NA
+3900946422,Provision People,Senior Data Engineer,"Norwalk, CT",12951519,Mid-Senior level,NA
+3900947017,"Sprout Social, Inc.",Senior Data Scientist,United States,1175268,Mid-Senior level,NA
+3900947565,YASH Technologies,Sr AWS Data Engineer,"Pennsylvania, United States",8493,Mid-Senior level,NA
+3900949012,ESB Technologies,Azure Data Engineer,"New York, United States",42880798,Mid-Senior level,NA
+3900951436,Insight Global,Cloud Data Analyst,United States,11056,Mid-Senior level,NA
+3900956639,Brillius,Data Engineer,"Cupertino, CA",6529017,NA,NA
+3900957963,IBM,Data Analyst,"Washington, DC",1009,NA,NA
+3900960573,R1 RCM,"Power BI Data Engineer, Semantic Layer",United States,162255,NA,NA
+3900961625,Valvoline Global Operations,Cloud Data Engineer,United States,93136823,Entry level,NA
+3900963551,The Carrera Agency,Data Engineer,United States,56862,Mid-Senior level,NA
+3900965005,SAGE IT,Data Engineer,"McLean, VA",744453,NA,NA
+3900965317,topGrads,Entry Level Data Scientist,United States,72559323,NA,NA
+3900966139,Air Force Civilian Service,Data Scientist,"Colorado Springs, CO",2619961,Mid-Senior level,NA
+3900967031,Ascendion,Data Analyst,"Seattle, WA",86694680,Associate,NA
+3900973074,UC San Diego,Sustainability Data Analyst,United States,3382,Associate,NA
+3900978298,Checchi Capital Advisers,Senior Software/Data Engineer,"Beverly Hills, CA",3965520,NA,NA
+3900978849,"AppLab Systems, Inc",Senior Azure Data Engineer with Hadoop and SQL,"Bellevue, WA",10604245,Mid-Senior level,NA
+3900980651,University of Mississippi,Data Analyst II/III,"University, MS",11076,Mid-Senior level,NA
+3900984477,Epsilon,Data Analyst,"Chicago, IL",3776,Associate,NA
+3900986317,Epsilon,Data Analyst,"Atlanta, GA",3776,Associate,NA
+3900988130,Epsilon,Data Analyst,"Irving, TX",3776,Associate,NA
+3901161902,Onward Play,Data Engineer - Python [74476],"Orlando, FL",42737578,Mid-Senior level,NA
+3901164084,Fannie Mae,Senior Data Engineer (Hybrid),"Plano, TX",19722,Associate,NA
+3901165719,Cyma Systems Inc,Senior Data Analyst,United States,1792232,NA,NA
+3901166618,Guidehouse,Data Scientist,"Huntsville, AL",28974109,Mid-Senior level,NA
+3901166920,Oshkosh Defense,Data Analyst,"Spartanburg, SC",550974,Entry level,NA
+3901170140,Info Services,Lead Data Engineer with Strong Scala (10 Years Minimum),"Bristol, CT",207595,Mid-Senior level,NA
+3901170582,"Eos Energy Enterprises, Inc.",Projects & Services Business Data Analyst Intern - Summer,"New Jersey, United States",2442165,Internship,NA
+3901175507,Hirexa Solutions,IT Product Support Analyst/Data Analyst,"Wichita, KS",10469647,NA,NA
+3901342614,Insight Global,Data Scientist,"Pittsburgh, PA",11056,Mid-Senior level,NA
+3901344570,Siaraa,API Data engineer,"Charlotte, NC",10611639,NA,NA
+3901346716,Insight Global,Clinical Data Analyst,"Greater Orlando, FL",11056,Mid-Senior level,NA
+3901347947,Insight Global,Remote Data Scientist,United States,11056,Mid-Senior level,NA
+3901348547,"Collaborate Solutions, Inc",Lead Data Engineer,"Columbia, TN",3223787,NA,NA
+3901348758,Intellisoft Technologies,Lead Data Scientist,"Virginia Beach, VA",132625,NA,NA
+3901348764,Sun Technologies,Data Analyst,"Orlando, FL",359901,NA,NA
+3901349539,ChabezTech LLC,Senior Data Engineer,"Georgia, United States",67168015,Mid-Senior level,NA
+3901349965,DataAnnotation,Data Analyst,"Plano, TX",96139831,NA,NA
+3901351524,Coast,Lead Data Engineer,New York City Metropolitan Area,78066259,Mid-Senior level,NA
+3901353172,Sumeru Inc,Lead Data Engineer,"Atlanta, GA",9901130,NA,NA
+3901353405,Info Services,GCP Data Engineer,United States,207595,Associate,NA
+3901353972,Deloitte,NLP Data Scientist - Python | Machine Learning | AI - Hybrid - TS/SCI - Tampa or DC,"Arlington, Virginia, United States",1038,NA,NA
+3901355642,Publicis Sapient,Senior Associate Data Engineer,"Arlington, VA",10801655,Mid-Senior level,NA
+3901357125,Citizens,Principal Data Scientist,"Westwood, MA",163062,NA,NA
+3901358031,DataAnnotation,Data Analyst,Salt Lake City Metropolitan Area,96139831,NA,NA
+3901360108,Rocket Mortgage,Senior Data Analyst,"Detroit, MI",76349528,Mid-Senior level,NA
+3901361348,DataAnnotation,Data Analyst,"Irving, TX",96139831,NA,NA
+3901361454,MHK,Senior Data Analyst - Cloud Solutions,"Tampa, FL",7162381,Mid-Senior level,NA
+3901371319,Trane Technologies,Lead Data Scientist,"Davidson, NC",64259963,Mid-Senior level,NA
+3901372744,MSRcosmos LLC,Senior Data Analyst,"Alpharetta, GA",590130,NA,NA
+3901373790,SNVA Technologies,Data Analyst,"Juno Beach, FL",14439628,NA,NA
+3901374122,Autodesk,Senior Data Analyst,"San Francisco, CA",1879,NA,NA
+3901374221,United Consulting Hub,Bioinformatics Data Engineer,United States,68827517,NA,NA
+3901374483,PSRTEK,Lead BigData Engineer (Scala),"Passaic County, NJ",13391879,NA,NA
+3901374554,Randstad Digital Americas,Data Engineer,"Grand Rapids, MI",157324,Mid-Senior level,NA
+3901376493,DataAnnotation,Data Analyst,Greater Phoenix Area,96139831,NA,NA
+3901376813,Apex Systems,Data Analyst,Greater Cleveland,4787,Mid-Senior level,NA
+3901377454,"Everest Consultants, Inc.",Sr. Data Engineer,New York City Metropolitan Area,62954,Mid-Senior level,NA
+3901377487,DataAnnotation,Data Analyst,Greater Minneapolis-St. Paul Area,96139831,NA,NA
+3901377494,Stellite Works LLC,Data Scientist with BERT and Genomics Experience,United States,99160630,NA,NA
+3901379597,Falcon Placement Services,GCP Data Engineer,United States,65685024,NA,NA
+3901381028,DataAnnotation,Data Analyst,Dallas-Fort Worth Metroplex,96139831,NA,NA
+3901388643,DataAnnotation,Data Analyst,Atlanta Metropolitan Area,96139831,NA,NA
+3901388800,DataAnnotation,Data Analyst,Los Angeles Metropolitan Area,96139831,NA,NA
+3901389241,DataAnnotation,Data Analyst,Greater Chicago Area,96139831,NA,NA
+3901389257,Catapult Solutions Group,Business Data Analyst,"San Diego, CA",3077586,Mid-Senior level,NA
+3901389260,Publicis Media,Senior Data Engineer,"New York, NY",50215,Mid-Senior level,NA
+3901389262,DataAnnotation,Data Analyst,Greater Boston,96139831,NA,NA
+3901389289,Ace Technologies,Full Stack Developer/Data Engineer,"Houston, TX",13705949,NA,NA
+3901389371,DataAnnotation,Data Analyst,"Brooklyn, NY",96139831,NA,NA
+3901390524,DataAnnotation,Data Analyst,"Long Beach, CA",96139831,NA,NA
+3901391072,DataAnnotation,Data Analyst,"Fairfax, VA",96139831,NA,NA
+3901391155,BravoTECH,Data Analyst (Workday Experience),"Richmond, VA",226898,Associate,NA
+3901391187,DataAnnotation,Data Analyst,Buffalo-Niagara Falls Area,96139831,NA,NA
+3901392127,DataAnnotation,Data Analyst,Omaha Metropolitan Area,96139831,NA,NA
+3901392636,DataAnnotation,Data Analyst,"Arlington, VA",96139831,NA,NA
+3901392844,Vaco,Sr. Data Engineer,"Tampa, FL",11229,Mid-Senior level,NA
+3901393128,VKore Solutions LLC,AWS Data Engineer (Healthcare domain),United States,43226128,NA,NA
+3901393458,Deltek,Generative AI Data Scientist,United States,163414,Mid-Senior level,NA
+3901393469,DataAnnotation,Data Analyst,Greater Sacramento,96139831,NA,NA
+3901393644,DataAnnotation,Data Analyst,"Santa Clara, CA",96139831,NA,NA
+3901393868,"TSR Consulting Services, Inc.",Marketing Data Analyst,"Naples, FL",828170,Mid-Senior level,NA
+3901394057,"Tentek, Inc.",Data Scientist/Data Analyst,"Orlando, FL",56880,Mid-Senior level,NA
+3901395329,DataAnnotation,Data Analyst,"Oakland, CA",96139831,NA,NA
+3901457333,Coders Data,Data Analyst,"Tampa, FL",14508644,Entry level,NA
+3901460656,Infojini Inc,Data Engineer,"Los Angeles, CA",815009,Mid-Senior level,NA
+3901461025,Coders Data,Data Analyst,San Francisco Bay Area,14508644,Entry level,NA
+3901470861,Flexton Inc.,Senior Data Analyst,"Austin, Texas Metropolitan Area",2012779,Mid-Senior level,NA
+3901607925,VySystems,Senior Data Engineer,"Chicago, IL",1452948,Mid-Senior level,NA
+3901624928,Carpe,Data Analyst,"Durham, NC",25177185,NA,NA
+3901626774,Motion Recruitment,Azure Data Engineer,"Atlanta, GA",5887,Mid-Senior level,NA
+3901628316,Agility Partners,Data Scientist,"Columbus, Ohio Metropolitan Area",16167895,Mid-Senior level,NA
+3901631218,Brightly,Data Analyst,"Cary, NC",79992924,Entry level,NA
+3901632079,andros,Data Engineer,United States,3233382,Mid-Senior level,NA
+3901632468,i2i Population Health,Data Analyst,"Tennessee, United States",855005,NA,NA
+3901634997,Chenega Professional Services Strategic  Business Unit,IT Financial Management System and Data Analyst,United States,10958324,Mid-Senior level,NA
+3901637608,Cloudious LLC,Sr. Data Engineer,"Dallas, TX",17959348,Mid-Senior level,NA
+3901641401,Owner.com,"Data Scientist, Business Operations",United States,18693608,Mid-Senior level,NA
+3901647821,Flexton Inc.,Sr. Data Analyst II (BI Associate),United States,2012779,Mid-Senior level,NA
+3901666135,Talent Groups,Azure Data Engineer,United States,51701268,Mid-Senior level,NA
+3901667736,Oak Street Health,Sr. Data Engineer I,"Chicago, IL",3029525,Mid-Senior level,NA
+3901672579,100K Job Hunt,Educational Data Analyst,"Washington, DC",100424216,NA,NA
+3901675598,Unisys,Data Analyst,"Richmond, VA",1281,Mid-Senior level,NA
+3901676617,TeamEx,"Developer, Designer, AI Engineer, Data Scientist, DevOps and QA",United States,99195340,NA,NA
+3901681051,SMX,Data Analyst,"Jacksonville, FL",13011,Entry level,NA
+3901683022,IT America Inc,Data Engineer - W2,"Richmond, VA",1138065,Mid-Senior level,NA
+3901684667,Compunnel Inc.,GCP Data Engineer- ONLY W2,"Dallas, TX",16690,Mid-Senior level,NA
+3901685711,"Global Technical Talent, an Inc. 5000 Company",Data Analyst,"Alameda, CA",19241,Entry level,NA
+3901689367,"Global Technical Talent, an Inc. 5000 Company",Data Analyst,"Inver Grove Heights, MN",19241,Entry level,NA
+3901694933,Selby Jennings,Senior Data Analyst,United States,106584,Mid-Senior level,NA
+3901697295,EY,Data Engineering - Senior - Consulting - Location OPEN,"Charlotte, NC",1073,Mid-Senior level,NA
+3901697459,Optimus - People. Solutions. Delivered.,Senior Data Scientist,Greater Houston,642251,Mid-Senior level,NA
+3901698224,EY,Data Analyst-Tech Cons-Data and Anltcs-Data Governance and Ctrls-FSO-Manager-Multiple Postns-1499053,"New York, NY",1073,Mid-Senior level,NA
+3901802024,Fanatics,Data Scientist II,United States,68543,Entry level,NA
+3901903592,DataAnnotation,Data Analyst,"Fremont, CA",96139831,NA,NA
+3901935948,HTC Global Services,Data Analyst,"Orlando, FL",201351,Mid-Senior level,NA
+3901936390,PSRTEK,Data Scientist (Medical),"Fairfax County, VA",13391879,NA,NA
+3901936781,Cybotic System,Loans Transformation Data Analyst,New York City Metropolitan Area,90644499,NA,NA
+3901937219,DataAnnotation,Data Analyst,"San Jose, CA",96139831,NA,NA
+3901937364,DataAnnotation,Data Analyst,Greater Houston,96139831,NA,NA
+3901937427,Tech Mahindra,Data Engineer,"Redmond, WA",3067,Mid-Senior level,NA
+3901937686,DataAnnotation,Data Analyst,Raleigh-Durham-Chapel Hill Area,96139831,NA,NA
+3901937718,DataAnnotation,Data Analyst,"San Antonio, Texas Metropolitan Area",96139831,NA,NA
+3901937792,DataAnnotation,Data Analyst,Huntsville-Decatur-Albertville Area,96139831,NA,NA
+3901937798,Aroris,Data Analyst Intern,"Minneapolis, MN",72599488,NA,NA
+3901938326,Advent Global Solutions,"Sr Data Analyst - W2 - 12 Months - Sunnyvale, CA or New York, NY or Hoboken, NJ / 2 days/week onsite",New York City Metropolitan Area,34484,NA,NA
+3901938333,DataAnnotation,Data Engineer,United States,96139831,NA,NA
+3901938642,DataAnnotation,Data Analyst,"Richmond, VA",96139831,NA,NA
+3901938868,"Computer Data Concepts, Inc",Data Engineer - Full Time,"Kansas City, MO",52147722,NA,NA
+3901939552,DataAnnotation,Data Analyst,San Diego Metropolitan Area,96139831,NA,NA
+3901940943,The Gunter Group,Product Data Analyst,"Portland, Oregon Metropolitan Area",2417135,Mid-Senior level,NA
+3901941046,DataAnnotation,Data Analyst,"Arlington, TX",96139831,NA,NA
+3901941238,Gainwell Technologies,Data Analyst (Visual Basic Application),"Hamilton, NJ",67155308,NA,NA
+3901941388,Simtra BioPharma Solutions,Sr. Data Engineer (onsite),"Bloomington, IN",29335510,Mid-Senior level,NA
+3901941571,DataAnnotation,Data Analyst,"Sunnyvale, CA",96139831,NA,NA
+3901941901,Preferred Strategies,BI Data Engineer,United States,119876,NA,NA
+3901941930,Allied Universal,Business Data Analyst,"Nashville, TN",10696913,Mid-Senior level,NA
+3901942334,DataAnnotation,Data Analyst,"Austin, Texas Metropolitan Area",96139831,NA,NA
+3901942346,DataAnnotation,Data Analyst,Greensboro--Winston-Salem--High Point Area,96139831,NA,NA
+3901942350,DataAnnotation,Data Analyst,Greater Tampa Bay Area,96139831,NA,NA
+3901942474,U.S. Department of Labor,Data Scientist - Interdisciplinary,"Washington, DC",5697,Entry level,NA
+3901943428,DataAnnotation,Data Analyst,Washington DC-Baltimore Area,96139831,NA,NA
+3901943542,Bernhard,Senior Data Analyst,"Metairie, LA",15211162,Mid-Senior level,NA
+3901945059,DataAnnotation,Data Analyst,Greater Pittsburgh Region,96139831,NA,NA
+3901945141,KHYATHI INFORMATICS LLC,Senior Cloud Data Engineer,New York City Metropolitan Area,13210834,NA,NA
+3901945212,"TSR Consulting Services, Inc.",Senior Data Engineer,United States,828170,Mid-Senior level,NA
+3901945414,Oracle,Senior Data Engineer,United States,1028,Mid-Senior level,NA
+3901945569,DHL Supply Chain,Junior Business Data Analyst,"Mechanicsburg, PA",3269,Entry level,NA
+3901946717,Ace Technologies,Data Engineer with Palantir Foundry (must),"Houston, TX",13705949,NA,NA
+3901947059,"V-Soft Consulting Group, Inc.",Data Scientist,"Manhattan, NY",96692,Entry level,NA
+3901950021,Smart IT Frame LLC,Lead Data Scientist,"Columbus, OH",11692984,Mid-Senior level,NA
+3901950460,Emeritus,Data Analyst,United States,10367223,Associate,NA
+3901950666,CARFAX,Product Data Analyst,"Centreville, VA",10616,Entry level,NA
+3901950683,PriceSenz,Data Scientist,"Durham, NC",9328925,Mid-Senior level,NA
+3901951580,Insight Global,Senior Data Scientist,"Orlando, FL",11056,Mid-Senior level,NA
+3901952554,American Express,Data Engineer-SQL/ Python/ Data Analysis,"Phoenix, AZ",1277,Entry level,NA
+3901953535,New Millenium Consulting,"000198 - W2 Only - Data Engineer (Python, React, Hadoop & Cloud)","Plano, TX",42379403,Mid-Senior level,NA
+3901953549,New Millenium Consulting,"NMC_000198 - W2 - Data Engineer (React, Python, Hadoop, Cloud))","Ridgefield Park, NJ",42379403,Mid-Senior level,NA
+3901956951,Select Source International,Data Analyst (Entry Level),"Trenton, NJ",77097,NA,NA
+3901957252,MindSource,Senior Data Engineer,United States,164992,Mid-Senior level,NA
+3901957457,Vaco,Contract Business Systems Data Analyst (Treasury focus),"Raleigh, NC",11229,Mid-Senior level,NA
+3901958379,DRISHTICON,Senior Data Engineer,"Sunnyvale, CA",5513055,Mid-Senior level,NA
+3901959349,VALID Systems,Senior Data Scientist,United States,96815,NA,NA
+3901961455,InfoObjects Inc.,Data Engineer,"Piscataway, NJ",456929,NA,NA
+3901961854,Eliassen Group,"(W2 only, c2h)  Senior AWS Data Engineer, Python",United States,13816,Mid-Senior level,NA
+3901962027,BJ's Wholesale Club,SR Data Scientist,"Marlborough, MA",8403,NA,NA
+3901964594,Ace Technologies,Data Engineer,"Houston, TX",13705949,NA,NA
+3901966406,"1st-Recruit LLC, An E-Verified Company",Cloud Data Engineer,New York City Metropolitan Area,80021800,NA,NA
+3901977714,bioMérieux,Sr. Data Engineer,"San Jose, CA",162715,Mid-Senior level,NA
+3901979221,Sayari,Senior Data Engineer,United States,9414559,NA,NA
+3901979241,Sayari,Forward Deployed Data Engineer - TS/SCI Full Scope Polygraph,Washington DC-Baltimore Area,9414559,NA,NA
+3901981845,Intelletec,Senior Data Engineer,"New York, NY",3295320,Mid-Senior level,NA
+3901992101,CARFAX,Data Analyst,"Centreville, VA",10616,Entry level,NA
+3901992642,AstrumU®,Data scientist intern,"Bellevue, WA",18586790,NA,NA
+3901993765,JPMorgan Chase & Co.,"Finance & Business Management Data Scientist, Senior Associate","Chicago, IL",1068,NA,NA
+3901994794,Two Six Technologies,Senior Data Scientist,"Aurora, Colorado, United States",75453814,Mid-Senior level,NA
+3901998589,JPMorgan Chase & Co.,"VP / Client, Finance & Strategy Data Scientist Lead – JPM Private Client","San Francisco, CA",1068,Mid-Senior level,NA
+3902301292,TekJobs,Senior Data Engineer,United States,74081323,NA,NA
+3902304004,TekJobs,Data Analyst,United States,74081323,NA,NA
+3902317341,U.S. Department of Labor,Data Scientist,"Washington, DC",5697,Entry level,NA
+3902317975,Thermo Fisher Scientific,BI Data Engineer,"United, PA",3081,NA,NA
+3902320788,Thermo Fisher Scientific,BI Data Engineer,"South Carolina, United States",3081,NA,NA
+3902320789,Thermo Fisher Scientific,BI Data Engineer,"Texas, United States",3081,NA,NA
+3902322819,Thermo Fisher Scientific,BI Data Engineer,"North Carolina, United States",3081,NA,NA
+3902333082,Tech Consulting,Data Engineer,New York City Metropolitan Area,95734231,Associate,NA
+3902338568,"Paramount Software Solutions, Inc",Data Analyst,"Seattle, WA",467038,NA,NA
+3902340477,ATC,Data Analyst-NY,"New York, United States",2736308,Entry level,NA
+3902340711,Randstad Digital,Data Analyst,"Atlanta, GA",98396104,Associate,NA
+3902341448,ATC,Data Analyst-WA,"Washington, United States",2736308,Entry level,NA
+3902343176,ATC,Data Analyst-CA,"California, United States",2736308,Entry level,NA
+3902343179,ATC,Data Analyst-IL,"Illinois, United States",2736308,Entry level,NA
+3902343369,NA,Data Engineer,United States,NA,NA,NA
+3902343817,Gupta Media,Digital Media Data Analyst,Greater Boston,965942,Entry level,NA
+3902344130,Selby Jennings,"Enterprise Data Engineer (Azure, Python, SQL)","Boston, MA",106584,Mid-Senior level,NA
+3902344156,ATC,Data Analyst-VA,"Virginia, United States",2736308,Entry level,NA
+3902344465,Ascendion,Senior Azure Cloud Data Engineer,United States,86694680,Mid-Senior level,NA
+3902345121,ATC,Data Analyst-Tx,"Texas, United States",2736308,Entry level,NA
+3902348387,Exelon,Sr Data Scientist,"Philadelphia, PA",4674,Mid-Senior level,NA
+3902348581,Planet Technology,SQL Data engineer - W2,United States,10126963,Mid-Senior level,NA
+3902351683,CodeForce 360,Big Data Engineer,"Phoenix, AZ",2627812,NA,NA
+3902351871,Select Source International,Data Analyst III (Onsite - Only W2/No C2C),"Phoenix, AZ",77097,NA,NA
+3902351966,V2Soft,Data Engineer,"Auburn Hills, MI",696534,NA,NA
+3902355088,Empower Professionals Inc,Big Data Engineer,"Alpharetta, GA",8047188,NA,NA
+3902356378,"TSR Consulting Services, Inc.",Data Engineer,"New Castle, DE",828170,NA,NA
+3902356904,Thoughtwave Software and Solutions,Data Engineer,Dallas-Fort Worth Metroplex,245238,NA,NA
+3902358747,EmblemHealth,Sr. Operations Data Analyst - Provider - (SAS Required) - Remote,"New York, NY",374632,Mid-Senior level,NA
+3902359059,CGS Business Solutions | INC 5000 Company,IT Team Lead / Sr. Servicing Product Owner / Sr. SQL Data Analyst  (Onsite Required),"Anaheim, CA",1156293,Mid-Senior level,NA
+3902359906,Citizens,Sr Data Scientist,"Stamford, CT",163062,NA,NA
+3902360145,3M,Unstructured Data Engineering Lead,"Maplewood, MN",1864,Mid-Senior level,NA
+3902360792,Kelly,Data Analyst,"Columbia, SC",2307,Associate,NA
+3902363076,Sole Source Capital LLC,Data Scientist,"Dallas, TX",6461553,NA,NA
+3902364148,Microsoft,​Data Engineer (Fabric)​,United States,1035,NA,NA
+3902364451,CGT Staffing (CompuGroup Technologies),Clinical Data Scientist,"Pittsburgh, PA",1167425,NA,NA
+3902364734,AMSURG,Sr. Data Engineer,"Nashville, TN",32346,Mid-Senior level,NA
+3902366146,CodeForce 360,Tibco Spotfire Data Analyst,"Cincinnati, OH",2627812,NA,NA
+3902366872,Smart IT Frame LLC,Databricks Data Engineer,"New York, United States",11692984,Mid-Senior level,NA
+3902367164,New Millenium Consulting,NMC_000221 - Data Analyst (W2),"Plano, TX",42379403,Mid-Senior level,NA
+3902367484,Piper Companies,Enterprise Data Engineer,"Washington, DC",2615835,Entry level,NA
+3902368153,Zentek Infosoft,Big Data Engineer,"Phoenix, AZ",3999028,NA,NA
+3902368502,Zentek Infosoft,Data Engineer,"Phoenix, AZ",3999028,NA,NA
+3902368730,Falcon Smart IT (FalconSmartIT),Senior Data Scientist for eComm Analytics,"Bentonville, AR",34654317,Mid-Senior level,NA
+3902369025,Provision People,Senior Data Engineer,"Norwalk, CT",12951519,Mid-Senior level,NA
+3902370542,Falcon Smart IT (FalconSmartIT),Senior Data Engineer,"Bentonville, AR",34654317,Mid-Senior level,NA
+3902371214,Piper Companies,Jr. Data Scientist (Hybrid),"McLean, VA",2615835,Entry level,NA
+3902371309,Insight Global,Senior Data Analyst- Scientist,United States,11056,Mid-Senior level,NA
+3902397585,"TSR Consulting Services, Inc.",Data Engineer/Scala Developer,"New Castle, DE",828170,NA,NA
+3902732774,Pattern Data,Program Data Analyst,United States,68332861,Entry level,NA
+3902733657,Dropbox,Data Scientist,United States,167251,NA,NA
+3902735179,Vail Health,Sr. Healthcare Data Analyst,United States,22303218,NA,NA
+3902742405,CACI International Inc,Sr. Data Scientist (Modeling),"Charlottesville, VA",3672,Mid-Senior level,NA
+3902752575,Navan,Senior Data Analyst,"Palo Alto, CA",79902774,Mid-Senior level,NA
+3902754520,The Washington Post,Data Scientist,"Washington, DC",166423,Entry level,NA
+3902755168,SAP,Marketing Data Analyst,"Plano, TX",1115,NA,NA
+3902755743,CeriFi,Senior Data Engineer,United States,51667067,Mid-Senior level,NA
+3902756194,Google,"Senior Data Scientist, Google Cloud Support","New York, NY",1441,Mid-Senior level,NA
+3902758344,4D Molecular Therapeutics,Principal Data Scientist - Statistical Programming,"Emeryville, CA",3627510,Entry level,NA
+3902758498,Raymond James,Senior Data Engineer,"Tampa, FL",4207,NA,NA
+3902759058,C2FO,Engineering Manager - Data Engineering,Kansas City Metropolitan Area,1555109,Mid-Senior level,NA
+3902759184,4D Molecular Therapeutics,Principal Data Scientist - Biostatistics,"Emeryville, CA",3627510,Entry level,NA
+3902760109,Booz Allen Hamilton,Data Scientist,"Norfolk, VA",1403,NA,NA
+3902762306,In Technology Group Inc (US),Senior Data Analyst,United States,88634456,Mid-Senior level,NA
+3902769245,Publicis,"Senior Associate, Data Engineering - Azure Cloud","Arlington, VA",2819,Mid-Senior level,NA
+3902782722,Capital One,Senior Data Engineer,"McLean, VA",1419,Mid-Senior level,NA
+3902784883,Gilead Sciences,Sr IT Data Engineering Associate,"Raleigh, NC",163993,NA,NA
+3902785272,Capital One,Senior Data Engineer,"Plano, TX",1419,Mid-Senior level,NA
+3902786201,Capital One,Senior Data Engineer,"Richmond, VA",1419,Mid-Senior level,NA
+3902786822,Talent Groups,Technical Data Analyst,"Milford, MA",51701268,Entry level,NA
+3902800437,Precision Technologies,Sr. Data Engineer(ONLY W2),"Monmouth Junction, NJ",2385278,NA,NA
+3902802384,Carallel,Data Analyst,United States,29121558,NA,NA
+3902802811,Zest AI,Associate Data Analyst,United States,29322289,Entry level,NA
+3902802826,Korn Ferry,Master Data Analyst,"Houston, TX",3741,Mid-Senior level,NA
+3902809268,Diverse Lynx,Data Scientist (6+ years) (Fulltime),"Bentonville, AR",90396,NA,NA
+3902810611,"Cliecon Solutions, Inc.",Senior Data engineer with Python - W2,"Jersey City, NJ",10612451,NA,NA
+3902814236,Nebula,Data Scientist,United States,74511026,NA,NA
+3902818173,4A IT Services LLC,Junior Data Engineer,United States,68257427,NA,NA
+3902828481,Pryor Associates Executive Search,Remote opportunity for P&C Insurance Data Scientist/Actuary - PR12690A,United States,3715179,Mid-Senior level,NA
+3902828761,Intelletec,Lead Data Scientist,"Chicago, IL",3295320,Mid-Senior level,NA
+3902830453,BCforward,Master Data Analyst,United States,947715,NA,NA
+3902833722,Ventegra,Reporting and Data Analyst,United States,10052668,NA,NA
+3902834229,Centraprise,Data Engineer,"Austin, TX",13345578,Mid-Senior level,NA
+3902834332,"Q1 Technologies, Inc.",Business Data Analyst- (Full Time/10+year exp*),"Sunnyvale, CA",60561,NA,NA
+3902834352,Pryor Associates Executive Search,Vice President/P&C Actuary/Data Scientist - PR12682,"New Jersey, United States",3715179,Executive,NA
+3902837747,RSM US LLP,Financial Data Analyst,"Minneapolis, MN",3743,NA,NA
+3902838650,Experis,Sr Data Engineer,"Philadelphia, PA",2203697,Mid-Senior level,NA
+3902838978,Piper Companies,Business Data Analyst,"McLean, VA",2615835,Mid-Senior level,NA
+3902839989,DHL Supply Chain,Business Data Analyst II,"Bordentown, NJ",3269,Associate,NA
+3902840602,Brighton Jones,Data Engineer,"Seattle, WA",79634,Entry level,NA
+3902841623,Experis,Data Engineer,"Philadelphia, PA",2203697,Entry level,NA
+3902841627,Experis,Data Scientist V,"Bernards, NJ",2203697,Entry level,NA
+3902841913,Piper Companies,Data Engineer,"McLean, VA",2615835,Entry level,NA
+3902843609,Irvine Technology Corporation,Data Scientist / AI,"Boston, MA",383369,Mid-Senior level,NA
+3902844106,Piper Companies,Enterprise Data Engineer (Onsite),"Washington, DC",2615835,Entry level,NA
+3902844857,PriceSenz,Health Data Scientist,"Durham, NC",9328925,Mid-Senior level,NA
+3902858470,E-IT,Data Analyst,"Charlotte, NC",9211944,NA,NA
+3902862582,Realtek Consulting LLC,Data Scientist,"Bentonville, AR",14620904,NA,NA
+3902863709,Oracle,Senior Data Engineer,United States,1028,Mid-Senior level,NA
+3902863970,WTW,Data Analyst - Marketing Development,"Salt Lake City, UT",3994,Entry level,NA
+3902863976,Fractal,"Head of Data Engineering, Healthcare & Life Sciences","New York, NY",26945,Director,NA
+3902865990,Fixity Technologies,Data Analyst (BANKING DOMAIN ONLY),"Jersey City, NJ",74777356,NA,NA
+3902866592,Dexian,Data Analyst,"Getzville, NY",91447303,NA,NA
+3902866672,ICF,Data Analyst - Remote,"Reston, VA",5742,Entry level,NA
+3902870023,Alpha Net,Senior Data Analyst (Only Locals to California will be considered),"Fremont, CA",2377207,NA,NA
+3902871035,Centraprise,Data Engineer,"Malvern, PA",13345578,Mid-Senior level,NA
+3902873579,USCTEK - Recruiting & Staffing,Data Analyst,United States,13637042,NA,NA
+3902879465,Provision People,Senior Data Engineer,"Norwalk, CT",12951519,Mid-Senior level,NA
+3902906828,NA,Data Analyst,"Arlington, VA",NA,NA,NA
+3902910362,Cincinnati Children's,Data Engineer I/II (Health Network),"Cincinnati, OH",163049,Entry level,NA
+3902914840,Tetricus Labs,Data Scientist,United States,85401549,NA,NA
+3902923533,Splash,Staff Data Engineer,United States,10279322,Mid-Senior level,NA
+3902931864,Pronix Inc,Data Engineer with Graph QL,"Plano, TX",1642843,Mid-Senior level,NA
+3902937754,The Johns Hopkins University,Research Data Analyst,"Baltimore, MD",3528,Mid-Senior level,NA
+3902938491,Talent Groups,Azure Data Engineer- Technical Lead,United States,51701268,Mid-Senior level,NA
+3902938559,The Johns Hopkins University,Research Data Analyst,"Baltimore, MD",3528,Mid-Senior level,NA
+3902938615,Anuvu,Data Engineer,"Chicago, IL",71533424,Entry level,NA
+3902939062,"Gardner Resources Consulting, LLC",Data Engineer,"Boston, MA",37538,NA,NA
+3902941891,CAI,Data Engineer,United States,51486,Entry level,NA
+3902942220,Blue Health Intelligence,Data Engineer,"Chicago, IL",2538921,Mid-Senior level,NA
+3902948256,Adaptavist,Senior Data Analyst,United States,443738,Mid-Senior level,NA
+3902951066,Lending Science DM,Summer Data Scientist Internship,"Alpharetta, GA",3831729,Internship,NA
+3902952353,Compunnel Inc.,Data Engineer (Informatica / Snaplogic / SQL),"Smithfield, RI",16690,Mid-Senior level,NA
+3903424992,Collabera,Business Data Analyst,"Richmond, VA",24440,Mid-Senior level,"Bank ,Banking,finance,financial ,Analysis ,Analyst,SQL,Data Analyst,data analysis, Data Management,Quality Analysis,Collibra ,Business Analyst,IT business analyst,Data Quality Analyst ,PowerCurve,jobsrichmond,VAjobs,JobsUSA,USAjobs"
+3903426725,DP Professionals (DPP),Data Analyst I (Onsite),"Columbia, SC",58661,Mid-Senior level,NA
+3903434376,Your Corporate Life,Google Cloud Platform Data Engineer,"Boston, MA",13609029,NA,NA
+3903434413,ApTask,Data Engineer,"Wilmington, DE",2934678,NA,NA
+3903441763,"Triunity Software, Inc.",Data Analyst (W2 Only),United States,80167387,Mid-Senior level,NA
+3903442651,TRM Labs,Senior Data Scientist (Advanced Analytics),United States,18742807,Mid-Senior level,NA
+3903443496,Akkodis,Data Analyst,"Akron, OH",79383535,Mid-Senior level,NA
+3903444383,ClarisHealth,Data Analyst,United States,25074734,Mid-Senior level,NA
+3903444500,Collabera,Data Engineer,"Bellevue, WA",24440,Entry level,"Data Engineer,AWS,Redshift,Python"
+3903444713,4A IT Services LLC,Sr Data scientist,San Francisco Bay Area,68257427,NA,NA
+3903444746,Gypsum Management and Supply,Junior Data Analyst,"Tucker, GA",2491610,Entry level,NA
+3903445489,"Paramount Software Solutions, Inc",Senior Data Scientist,United States,467038,NA,NA
+3903447159,OpenWeb,Data Engineer,United States,2506872,Associate,NA
+3903447822,Quess US,Lead Data Engineer (W2) (REMOTE),United States,82149043,Mid-Senior level,NA
+3903448251,"TSR Consulting Services, Inc.",Transformation Data Analyst - Financial Services,"New York, NY",828170,Mid-Senior level,NA
+3903450989,Straight Arrow News,Data Analyst,United States,71622423,Associate,NA
+3903451024,"TechnoSphere, Inc.","Data Engineer (TS/SCI,Python,Elasticsearch) Full Time","Ohio City, OH",77601,NA,NA
+3903454414,"Groundswell, Inc.",Senior Data Analyst,Washington DC-Baltimore Area,2548923,Mid-Senior level,NA
+3903454514,EPITEC,Data Analyst,"Chicago, IL",25461,Mid-Senior level,NA
+3903455192,Peritus Inc,"Senior Data Scientist with GCP and LLM ,Gen AI exp 10+",United States,10853673,NA,NA
+3903456425,STONE Resource Group,Data Scientist,Atlanta Metropolitan Area,1211135,Mid-Senior level,NA
+3903457330,Systellar Technologies,Data Analyst (Only W2),"Juno Beach, FL",88278515,NA,NA
+3903459205,VideoAmp,Senior Data Engineer,United States,3704165,Mid-Senior level,NA
+3903461431,INSPYR Solutions,Sr. Data Analyst,"Deerfield Beach, FL",1742506,Mid-Senior level,NA
+3903466848,Munich Re,Data Engineer Intern,"Princeton, NJ",8346,Internship,NA
+3903468188,Hotwire Communications Ltd,Data Analyst,"Raleigh, NC",262802,Entry level,NA
+3903469466,NMR Consulting,Data Analyst,"Huntsville, AL",83485,Associate,NA
+3903470873,Covetus,Senior Data Engineer,"St Petersburg, FL",3294602,NA,NA
+3903472486,"FUJIFILM Cellular Dynamics, Inc",Data Scientist,"Madison, WI",301071,Entry level,NA
+3903473732,Viatris,"Intern, Data Analyst (Projects) IOAO Supply Chain",United States,52143761,Internship,NA
+3903474085,GSA,Supervisory Data Scientist - Technology Transformation Service,"Indiana, United States",5353,Mid-Senior level,NA
+3903475191,The Mom Project,Data Engineer,"Richardson, TX",10420321,Entry level,NA
+3903476162,Galehead Development,Geospatial Data Engineer II,"Boston, MA",16203948,Mid-Senior level,NA
+3903477932,MANN+HUMMEL,Catalog Data Analyst - Heavy Duty,"Gastonia, NC",259898,Associate,NA
+3903478606,AAA Club Alliance,Marketing Data Analyst,"Wilmington, DE",16552,Associate,NA
+3903482570,"VMC Soft Technologies, Inc",BIG DATA ENGINEER,"Phoenix, AZ",77158779,Mid-Senior level,NA
+3903482860,LS Solutions,Data Scientist,"Johnston, IA",86877889,Mid-Senior level,NA
+3903483983,Collabera,Loans Transformation Data Analyst,"New York, NY",24440,Entry level,"Lending Transformation,Loans Transformation,SQL,VBA,Sharepoint,MS Excel,MS Access,Loan data hierarchy ,Data analysis,Project management"
+3903485883,"LanceSoft, Inc.",Sr. Provider Data Analyst ( 100% Remote),United States,16388,NA,NA
+3903487386,Amazon,"Data Engineer , People Analytics, Technology, Operational Excellence team (PATOE)","Arlington, VA",1586,NA,NA
+3903489623,"RK Management Consultants, Inc.",Data Engineer,"Chicago, IL",147899,Mid-Senior level,NA
+3903499884,ClinDCast,Senior Data Engineer,"Tampa, FL",68688955,NA,NA
+3903801040,HKA Enterprises,Sr Cloud Data Engineer 191995,"Columbus, OH",1128772,Mid-Senior level,NA
+3903802602,Stearns Bank N.A.,Data Analyst Strategist & Technology Engineer,United States,71101,Mid-Senior level,NA
+3903802633,Capital One,Lead Data Engineer,"Plano, TX",1419,Mid-Senior level,NA
+3903802642,Capital One,"Senior Associate, Data Scientist - Model Risk Office","McLean, VA",1419,Associate,NA
+3903806210,Capital One,"Senior Associate, Data Scientist - Model Risk Office","Richmond, VA",1419,Associate,NA
+3903806626,SynergisticIT,Junior data scientist/java programmer,"Charleston, WV",66321745,Entry level,NA
+3903807162,Capital One,"Senior Associate, Data Scientist - Model Risk Office","New York, NY",1419,Associate,NA
+3903811108,Oliver James,Data Scientist II,"Dayton, OH",212201,Entry level,NA
+3903812998,Altice USA,Senior Data Engineer,"New York, New York, United States",10855353,Mid-Senior level,NA
+3903814368,Flock Safety,Data Analyst,United States,18021229,Entry level,NA
+3903815154,KnitWell Group,Data Scientist,"Pataskala, OH",98515022,Entry level,NA
+3903821343,Conspicuous,Data Engineer (D365 F&O) - Up to $130k base + benefits USD - Remote (USA) - Global manufacturing organization,United States,1323519,Mid-Senior level,NA
+3903823752,TEKsystems,Software Data Engineer - DPP,"Seattle, WA",2152,Entry level,NA
+3903825744,FanDuel,Data Engineering Director,"Atlanta, GA",1821549,Director,NA
+3903825867,Empower Professionals Inc,GCP Data Engineer,United States,8047188,NA,NA
+3903826028,ISO New England Inc.,Data Engineering Manager,"Springfield, Massachusetts Metropolitan Area",19762,Mid-Senior level,NA
+3903826753,CACI International Inc,ArcGIS Data Analyst,"Charlottesville, VA",3672,Entry level,NA
+3903827312,FanDuel,Data Engineering Director,"Los Angeles, CA",1821549,Director,NA
+3903828302,FanDuel,Cybersecurity Data Engineer,"Atlanta, GA",1821549,Entry level,NA
+3903829210,FanDuel,Data Engineering Director,"New York, NY",1821549,Director,NA
+3903830118,FanDuel,Cybersecurity Data Engineer,"New York, NY",1821549,Entry level,NA
+3903831558,Aditi Consulting,Data Engineer,"Ohio, United States",2985733,Entry level,NA
+3903832207,Argano,Senior Data Engineer,United States,22582874,Mid-Senior level,NA
+3903832397,Quess US,Data Analyst - Python/AWS (W2) (REMOTE),United States,82149043,Mid-Senior level,NA
+3903838584,Kiewit,Financial Data Analyst,"Omaha, NE",9585,Mid-Senior level,NA
+3903839414,INSPYR Solutions,Data Scientist II,"Orlando, FL",1742506,Entry level,NA
+3903842339,GSA,Data Scientist (CYBERSECURITY) - Technology Transformation Service,"Indiana, United States",5353,Director,NA
+3903845232,CIBC US,Data Engineer,"Chicago, IL",25040356,Entry level,NA
+3903845813,Intelliswift Software,Junior Data Analyst,"Plano, TX",30324,NA,NA
+3903846050,GSA,Data Scientist (CYBERSECURITY) - Technology Transformation Service,"Indiana, United States",5353,Director,NA
+3903846324,Booz Allen Hamilton,"Data Engineer, Mid","San Diego, CA",1403,NA,NA
+3903846326,Booz Allen Hamilton,"Data Engineer, Mid","San Diego, CA",1403,NA,NA
+3903846556,C2FO,Engineering Manager - Data Engineering,Kansas City Metropolitan Area,1555109,Mid-Senior level,NA
+3903848583,Genpact,Data Analyst,"San Antonio, Texas Metropolitan Area",210064,Mid-Senior level,NA
+3903867896,Principal Financial Group,"Data Engineer - Enterprise Data and Analytics, Human Resources Stream","Des Moines, IA",4399,Entry level,NA
+3903870866,GSK,Data Engineer II,"Seattle, WA",1399,NA,NA
+3903875177,Honeywell,Advanced Data Scientist (Sr Business Dvlpmnt Analyst (Data Science Engagement Leader)),"Atlanta, GA",1344,Mid-Senior level,NA
+3903875936,Fidelity Investments,Data Engineer- AWS (Python/ Airflow/ RDS),"Durham, NC",1307,NA,NA
+3903876022,SymphonyAI,SaaS Data Analyst,"Englewood, CO",18254848,Entry level,NA
+3903876857,Fidelity Investments,Data Engineer- AWS (Python/ Airflow/ RDS),"Westlake, TX",1307,NA,NA
+3903877537,V2X Inc,Data Scientist - Senior,United States,89877420,Mid-Senior level,NA
+3903878662,Fidelity Investments,Data Engineer- AWS (Python/ Airflow/ RDS),"Smithfield, RI",1307,NA,NA
+3903879654,Fidelity Investments,Data Engineer- AWS (Python/ Airflow/ RDS),"Merrimack, NH",1307,NA,NA
+3903879731,Strava,Data Engineer II,"San Francisco, CA",279570,Entry level,NA
+3903894552,Informa Markets,"Data Engineer, Quality Assurance","Boulder, CO",2339560,Associate,NA
+3904049996,Capital One,Sr. Distinguished Data Engineer,"Plano, TX",1419,Mid-Senior level,NA
+3904052744,Capital One,Sr. Distinguished Data Engineer,"Richmond, VA",1419,Mid-Senior level,NA
+3904054114,Capital One,Sr. Distinguished Data Engineer,"McLean, VA",1419,Mid-Senior level,NA
+3904058563,Culligan International,Business Data Analyst,"Rosemont, IL",12336,Mid-Senior level,NA
+3904066592,Jobot Consulting,Staff Data Scientist,"New York, NY",99430348,Entry level,NA
+3904083826,Amazon,"Language Data Scientist, Artificial General Intelligence (AGI)","Boston, MA",1586,NA,NA
+3904084737,Amazon,"Senior Data Engineer, WWDE","Seattle, WA",1586,Mid-Senior level,NA
+3904087117,Amazon,"Language Data Scientist, Artificial General Intelligence (AGI)","Boston, MA",1586,NA,NA
+3904089081,Amazon,"Sr Data Engineer , Customer Engagement Technology Generative AI","Seattle, WA",1586,Mid-Senior level,NA
+3904091391,SSi People,Data Scientist,"Waltham, MA",56833,Associate,NA
+3904092967,Akkodis,Data Engineering Analyst,"Denver, CO",79383535,Director,NA
+3904096890,Takeda,Data Scientist,"Boston, MA",5482,Entry level,NA
+3904098193,Covetrus,Data Engineer Intern (Remote but needs to be in Eastern or Central Time zone),"Columbus, OH",35533147,Internship,NA
+3904358864,NA,Senior Data Engineer,"Bellevue, WA",NA,Mid-Senior level,NA
+3904361248,Vertisystem,Senior Data Scientist,"Menlo Park, CA",3009879,Mid-Senior level,NA
+3904362210,Dice,BI Data Analyst - AWS QuickSight,"Tempe, AZ",6849,Mid-Senior level,NA
+3904363560,NORC at the University of Chicago,Data Scientist,"Chicago, IL",10856,Entry level,NA
+3904363999,Paysafe,"Senior Data Analyst, Pricing","Jacksonville, FL",132205,NA,NA
+3904366169,Alight Solutions,Senior Data Scientist - Virtual,"Chicago, IL",21528485,NA,NA
+3904372360,Syniverse,Sr. Advisory Data Engineer,United States,8490,Mid-Senior level,NA
+3904373064,Diasorin,Clinical Data Scientist,"Austin, TX",35451544,Mid-Senior level,NA
+3904376533,Walmart,"Senior, Data Scientist","Bentonville, AR",2646,Mid-Senior level,NA
+3904379839,Textron Aviation,Data Scientist - Customer Service,"Wichita, KS",3646465,Associate,NA
+3904380768,Chenega MIOS SBU,Data Analyst,"Alexandria, VA",1472684,Entry level,NA
+3904383795,Northwestern Mutual,Sr Data Analyst,"Franklin, WI",2445,Mid-Senior level,NA
+3904384809,SAE International,Data Engineering Lead,"Warrendale, PA",25098,Mid-Senior level,NA
+3904386707,SAE International,Senior Data Analyst,"Warrendale, PA",25098,Mid-Senior level,NA
+3904388247,BlackRock,"Associate or Analyst, Data Engineering","San Francisco, CA",4764,NA,NA
+3904388514,Health Care Service Corporation,Data Analyst,"Richardson, TX",1075434,NA,NA
+3904388641,Unified Women's Healthcare,Data Analyst- Business Intelligence,"Florida, United States",14806044,NA,NA
+3904389544,Unified Women's Healthcare,Data Scientist,"Florida, United States",14806044,NA,NA
+3904389545,Coders Data,Data Analyst,New York City Metropolitan Area,14508644,Entry level,NA
+3904390729,Getinge,Data Engineer Intern,"Wayne, NJ",451202,Mid-Senior level,NA
+3904393193,Ford Motor Company,Sr. Data Engineering Manager,"Dearborn, MI",1483,NA,NA
+3904394509,CCS Global Tech,Entry Level Data Analyst,"San Diego, CA",344299,Entry level,NA
+3904404326,United States Olympic & Paralympic Committee,Data Engineer,"Colorado Springs, CO",13795,Mid-Senior level,NA
+3904406011,"Akraya, Inc.",Business Data Analyst III :24-01044,"San Diego, CA",41771,Mid-Senior level,NA
+3904409346,GoodRx,Data Engineer III,"Seattle, WA",2466850,Mid-Senior level,NA
+3904413403,PulsePoint,"Sr. Data Analyst, Programmatic Advertising","Newark, NJ",2349382,Mid-Senior level,NA
+3904417647,MetLife,Lead Data Scientist,United States,2213,NA,NA
+3904419744,Novo Nordisk,Senior BI and Data Analyst,"Plainsboro, NJ",2227,NA,NA
+3904419845,"University of California, San Francisco",Statistician and Data Scientist,"San Francisco, CA",3028,NA,NA
+3904422371,Wellabe,"Data Engineer 2/3 - Hybrid - Des Moines, IA","Des Moines, IA",50913,Mid-Senior level,NA
+3904426048,EnergyHub,Senior Data Analyst,United States,595749,Mid-Senior level,NA
+3904426905,Scripps Health,Data Scientist,"San Diego, CA",14822,Entry level,NA
+3904430353,Dave,Senior Data Scientist,United States,18037479,Mid-Senior level,NA
+3904430647,Vericast,Data Scientist-FI Solutions,"San Antonio, TX",64594777,Associate,NA
+3904500419,SSi People,Clinical data scientist,"Waltham, MA",56833,Associate,NA
+3904507677,Genpact,Data Analyst – Banking,"Tampa, FL",210064,Mid-Senior level,NA
+3904508686,Tide Cleaners,Senior Data Analyst for Growth,"Cincinnati, OH",3269327,NA,NA
+3904510164,Open Systems Technologies,Data Analyst,"New York, NY",11655,Entry level,NA
+3904511121,Open Systems Technologies,Databricks Cloud Data Engineer,"Richmond, VA",11655,Entry level,NA
+3904561757,Saxon AI,Lead Data Engineer,United States,224935,NA,NA
+3904566870,Integra FEC,Blockchain Data Scientist,"Austin, TX",6465593,NA,NA
+3904569002,Amazon,"Senior Data Engineer , Community Operations","Bellevue, WA",1586,Mid-Senior level,NA
+3904569194,ChabezTech LLC,Generative AI - Data Scientist,"Los Angeles, CA",67168015,Mid-Senior level,NA
+3904572570,Norstella,Senior Data Scientist,United States,79134089,Mid-Senior level,NA
+3904574894,Capital One,Senior Data Engineer,"McLean, VA",1419,Mid-Senior level,NA
+3904574897,Capital One,Lead Data Engineer (FinOps),"New York, NY",1419,Mid-Senior level,NA
+3904574898,Capital One,Lead Data Engineer (FinOps),"Plano, TX",1419,Mid-Senior level,NA
+3904575804,Capital One,Senior Data Engineer,"Chicago, IL",1419,Mid-Senior level,NA
+3904578558,Capital One,Senior Data Engineer,"Richmond, VA",1419,Mid-Senior level,NA
+3904581374,Capital One,Senior Data Engineer,"Plano, TX",1419,Mid-Senior level,NA
+3904701924,Adobe,Data Scientist,"San Jose, CA",1480,Entry level,NA
+3904702598,Dropbox,Data Engineer,United States,167251,NA,NA
+3904708709,Aditi Consulting,Data Analyst 1,"Plano, TX",2985733,Mid-Senior level,NA
+3904711201,Crum & Forster,"Data Analyst, Marketing","Glastonbury, CT",12751,Entry level,NA
+3904712149,Crum & Forster,"Data Analyst, Operations","Glastonbury, CT",12751,Entry level,NA
+3904714725,Washington University in St. Louis,Data Analyst - Office of Institutional Research & Analysis,"St Louis, MO",4608,Entry level,NA
+3904716772,Sumeru Inc,Data Scientist,United States,9901130,NA,NA
+3904716857,Global Payments Inc.,ACH Data Analyst,"Oklahoma City, OK",164006,Entry level,NA
+3904717607,Seattle Children's,Data Scientist I,"Washington, United States",163020,Entry level,NA
+3904717996,Google,"Senior Data Scientist, Research","San Bruno, CA",1441,Mid-Senior level,NA
+3904718097,BizCoder AI,Data Scientist,United States,88405569,NA,NA
+3904722490,Booz Allen Hamilton,Data Scientist,"Melbourne, FL",1403,NA,NA
+3904723449,MUFG,Data Analyst (AVP Position),"Tampa, FL",3795888,Entry level,NA
+3904725790,RTeams,Data Scientist,United States,90947088,NA,NA
+3904740018,Infogain,Business Data Analyst,"Springdale, AR",6282,Entry level,NA
+3904919938,Revolution Technologies,Data Analyst/Workstation Support,"Columbia, SC",36676,Associate,NA
+3904921991,NeerInfo Solutions,Senior Data Engineer,United States,1738971,Mid-Senior level,NA
+3904922248,AbbVie,Data Analyst,"Mettawa, IL",1304385,Entry level,NA
+3904930207,BioMADE,Senior Data Scientist,"Emeryville, CA",69172028,Mid-Senior level,NA
+3904932499,Rose International,Business Data Analyst,"San Diego, CA",12309,Mid-Senior level,NA
+3904938280,AT&T,Senior Data Analyst,"Dallas, TX",1052,NA,NA
+3904938734,SS&C Technologies,LLM Data Scientist,"Boston, MA",7684,Entry level,NA
+3904939986,TELUS International,Online Data Analyst,"Bennington, VT",1258653,Entry level,NA
+3904941170,TELUS International,Online Data Analyst,"Garland, TX",1258653,Entry level,NA
+3904941287,GlobalSource IT,Master Data Analyst,Greater Minneapolis-St. Paul Area,74827,Associate,NA
+3904941546,TELUS International,Online Data Analyst,"Vermont, United States",1258653,Entry level,NA
+3904941769,ClearanceJobs,Data Analyst with Security Clearance,"Quantico, VA",1007957,Entry level,NA
+3904942066,TELUS International,Online Data Analyst,"Texas, United States",1258653,Entry level,NA
+3904942700,TELUS International,Online Data Analyst,"Manchester, VT",1258653,Entry level,NA
+3904943673,Compunnel Inc.,Data Engineer,"Merrimack County, NH",16690,Mid-Senior level,NA
+3904944214,TELUS International,Online Data Analyst,"Brownsville, TX",1258653,Entry level,NA
+3904944509,TELUS International,Online Data Analyst,"Stowe, VT",1258653,Entry level,NA
+3904945174,TELUS International,Online Data Analyst,"Carrollton, TX",1258653,Entry level,NA
+3904946022,TELUS International,Online Data Analyst,"College Station, TX",1258653,Entry level,NA
+3904946063,TELUS International,Online Data Analyst,"Beaumont, TX",1258653,Entry level,NA
+3904946292,ClearanceJobs,"Data Engineer, Senior with Security Clearance","Fort Belvoir, VA",1007957,Mid-Senior level,NA
+3904947286,ClearanceJobs,Data Analyst Supporting the FBI with Security Clearance,"Washington, DC",1007957,Entry level,NA
+3904947318,TELUS International,Online Data Analyst,"Killington, VT",1258653,Entry level,NA
+3904947396,Apex Systems,Data Engineer General,"Dearborn, MI",4787,Mid-Senior level,NA
+3904948162,Apex Systems,Sr Data Engineer,"San Antonio, TX",4787,Mid-Senior level,NA
+3904949054,Apex Systems,Data Analyst,"Richmond, VA",4787,Entry level,NA
+3904950518,Dice,Senior Data Engineer,"Boston, MA",6849,Mid-Senior level,NA
+3904951329,Dice,"Job Opening for ""Technical Lead- Data Engineering"" #Fulltime Role# Boston, MA Local Candidates Only","Boston, MA",6849,Entry level,NA
+3904952108,Dice,"Staff Data Scientist, Ecosystem","San Francisco, CA",6849,Entry level,NA
+3904954410,Verisk,Property & Casualty Insurance - Senior Data Analyst,"Jersey City, NJ",580619,Mid-Senior level,NA
+3904955114,ICE,Cross Asset Market Data Analyst,"Atlanta, GA",252398,NA,NA
+3904955360,Motion Recruitment,Support Data Engineer,"Tampa, FL",5887,Mid-Senior level,NA
+3904955466,DataAnnotation,Data Analyst,Denver Metropolitan Area,96139831,NA,NA
+3904955521,Denver Corporate Search | DCS,Data Engineer,United States,6075380,Mid-Senior level,NA
+3904956273,GEICO,Staff Data Engineer - People & Finance Tech (Remote),"Chevy Chase, MD",157327,Mid-Senior level,NA
+3904956283,Motion Recruitment,Business Data Analyst - Loans Transformation,"New York, NY",5887,Mid-Senior level,NA
+3904957834,Coders Data,Data Analyst,New York City Metropolitan Area,14508644,Entry level,NA
+3904959397,Mitchell Martin Inc.,Data Analyst/Project Manager,"New York, United States",488281,Mid-Senior level,NA
+3904960773,Cotiviti,Data Scientist I,United States,20089,Mid-Senior level,NA
+3904964385,Matrix Finance and Accounting,Data Analyst,"Bellevue, WA",479939,Mid-Senior level,NA
+3904966260,DataAnnotation,Data Analyst,Greater Orlando,96139831,NA,NA
+3904966927,Altum Solutions,Data Analyst,"Columbia, South Carolina Metropolitan Area",20700988,Mid-Senior level,NA
+3904967740,DataAnnotation,Data Analyst,New York City Metropolitan Area,96139831,NA,NA
+3904969189,MS TECH PARTNERS,Lead Data Engineer,"Richardson, TX",98440385,NA,NA
+3904971548,Skywalk Global,Data Scientist,"Des Moines, IA",2695488,Mid-Senior level,NA
+3904974699,Libsys Inc,Data Scientists,United States,74694602,NA,NA
+3904978444,TikTok,Data Scientist Intern (Monetization Product and Technology-Strategy and Data Science-Global Data Science-Performance Ads ) - 2024 Off-Cycle (BS/MS),"San Jose, CA",33246798,NA,NA
+3904978968,Cornerstone Building Brands,Data Analyst,"Kearney, MO",19158808,Associate,NA
+3904987065,Amtex Systems Inc.,Data Analyst,"Juno Beach, FL",14699670,Mid-Senior level,NA
+3904987798,State of Missouri,Senior Research Data Analyst-DBH,"Jefferson City, MO",8024,Mid-Senior level,NA
+3904989360,Expedia Group,Data Scientist I (Incrementality Measurement Analytics),"Seattle, WA",2751,Entry level,NA
+3904989573,Blue Yonder,Sr. Staff Data Scientist,"Dallas, TX",2716085,NA,NA
+3904990653,TechTriad,Data Engineer,"Newark, NJ",6638223,NA,NA
+3904991152,Expedia Group,Actuarial Data Scientist III,"Seattle, WA",2751,Entry level,NA
+3904991267,University of Pennsylvania,Data Analyst - Programmer (Department of Translational Medicine and Human Genetics),"Philadelphia, PA",3165,Entry level,NA
+3904994359,Xplor Technologies,Data Engineer (Data as a Service),"Atlanta, GA",71555983,Mid-Senior level,NA
+3904994510,Sherwin-Williams,R&D Lead Data Scientist,"Cleveland, OH",165944,Mid-Senior level,NA
+3904997631,"BAE Systems, Inc.",Tableau Data Analyst - PowerBI and SharePoint,"Sterling, VA",1881,Entry level,NA
+3904999400,"BAE Systems, Inc.",Engineer Associate – Data Scientist – AI/ML Technology,"Fairborn, OH",1881,Entry level,NA
+3904999438,Naztec International Group,GCP Data Engineer- Need on W2 or 1099,United States,1729413,Mid-Senior level,NA
+3905207941,Denodo,Associate Data Engineer,"New York, NY",32150,Mid-Senior level,NA
+3905208625,Orbit Recruitment Group,Data Engineer - Remote,"New York, NY",14803700,Mid-Senior level,NA
+3905208753,Orbit Recruitment Group,Data Engineer - Remote,"Philadelphia, PA",14803700,Mid-Senior level,NA
+3905210695,Orbit Recruitment Group,Data Engineer - Remote,"Phoenix, AZ",14803700,Mid-Senior level,NA
+3905211340,New York Technology Partners,Lead Data Engineer,"Fremont, CA",84551,Mid-Senior level,NA
+3905211480,Orbit Recruitment Group,Data Engineer - Remote,"San Antonio, TX",14803700,Mid-Senior level,NA
+3905212406,Denodo,Associate Data Engineer,"Chicago, IL",32150,Mid-Senior level,NA
+3905213935,Prodware Solutions,100% Remote - Data Scientist - Transformers,"Johnston, IA",2045626,Mid-Senior level,NA
+3905214221,NLB Services,Azure Synapse Data Engineer,United States,490432,NA,NA
+3905218828,Prodware Solutions,Data Scientist - Transformers - 100% Remote,United States,2045626,Mid-Senior level,NA
+3905222559,Telegraph,Data Scientist,United States,79131372,Mid-Senior level,NA
+3905229532,"American Unit, Inc",Data Engineer,"Tallahassee, FL",51100,Mid-Senior level,NA
+3905230674,Hexaware Technologies,Lead Data Scientist,United States,164182,Mid-Senior level,NA
+3905233250,Diligente Technologies,Data Engineering Manager,United States,2552597,Director,NA
+3905233984,University of Kentucky,Data Scientist,"Lexington, KY",5998,Mid-Senior level,NA
+3905235932,Hireblox,Data Engineer,"Thousand Oaks, CA",91514875,NA,NA
+3905236036,Motion Recruitment,Data Analyst,"Audubon, PA",5887,Entry level,NA
+3905236672,Cyma Systems Inc,AWS Data Engineer,"Boston, MA",1792232,NA,NA
+3905241070,"firstPRO, Inc",Data Engineer,"Boston, MA",16227,Mid-Senior level,NA
+3905241252,Rose International,Support Data Engineer,"Tampa, FL",12309,Mid-Senior level,NA
+3905243013,A-Line Staffing Solutions,Senior Data Engineer,United States,649388,Mid-Senior level,NA
+3905249511,Beyondsoft,Sr. Data Analyst,United States,41887,Mid-Senior level,NA
+3905253775,Rose International,Loans Transformation Data Analyst,"New York, NY",12309,Mid-Senior level,NA
+3905254737,Paragon IT Professionals,Data Scientist,"Des Moines, IA",44994,Mid-Senior level,NA
+3905256364,Zolon Tech Inc.,Data Engineer,"Cupertino, CA",66407,Associate,NA
+3905256513,Ovative Group,Sr. Data Scientist - Strategic Projects,"New York, NY",1105221,Mid-Senior level,NA
+3905283695,Novo Nordisk,Data Scientist,"Princeton, NJ",2227,NA,NA
+3905284594,ZoomInfo,Senior Data Scientist,United States,16272,Mid-Senior level,NA
+3905286566,100K Job Hunt,Senior ETL Data Engineer,"Washington, DC",100424216,NA,NA
+3905289164,Achieve,Sr. Staff Data Analyst - Marketing Analytics,"Arizona, United States",87147260,Mid-Senior level,NA
+3905289791,NBCUniversal,Lead Data Engineer,"Universal City, CA",1828,Mid-Senior level,NA
+3905289793,NBCUniversal,CDE Data Engineer,"Englewood Cliffs, NJ",1828,Associate,NA
+3905291177,Gray Matter Analytics,Lead Data Engineer,United States,3260446,Mid-Senior level,NA
+3905291718,"MedImpact Healthcare Systems, Inc.",Data Engineer III,United States,12254,Mid-Senior level,NA
+3905292347,Brand Advance // SSP,Data Scientist,United States,27169417,Associate,NA
+3905294630,Coders Data,Junior Data Analyst,United States,14508644,Entry level,NA
+3905296639,Nuna Inc.,"Senior Data Scientist, LLM","San Francisco, CA",6649017,Mid-Senior level,NA
+3905296870,Apex Systems,Sr. Snowflake Azure Data Engineer,"Minneapolis, MN",4787,Mid-Senior level,NA
+3905298572,"DMI (Digital Management, LLC)",Data Engineer,"Maryland, United States",51648,Entry level,NA
+3905299706,Dice,Data Scientists with Google Cloud Platform exp (10 years),United States,6849,Entry level,NA
+3905300706,Bayforce,Senior SAP Data Analyst (No corp to Corp),Greater Chicago Area,72593,Mid-Senior level,NA
+3905302427,AMERICAN SYSTEMS,Data Analyst / Technical Writer 3 - Top Secret Clearance,"Fredericksburg, VA",6609,Mid-Senior level,NA
+3905302758,Delta Air Lines,IT Data Engineer,"Atlanta, GA",2272,Entry level,NA
+3905306415,Confidential,Loan Transformation Data Analyst,"Tampa, FL",33242739,Mid-Senior level,NA
+3905311477,Gravity IT Resources,Data Analyst,"Juno Beach, FL",4854165,Mid-Senior level,NA
+3905325835,Veeam Software,Senior Data Analyst,"Alpharetta, GA",236413,Mid-Senior level,NA
+3905325959,Pivotal Life Sciences,Data Engineer,"San Francisco, CA",23718587,Associate,NA
+3905327729,Pivotal Life Sciences,Senior AI Data Scientist,San Francisco Bay Area,23718587,Mid-Senior level,NA
+3905328744,Visa,Senior Data Engineer- Python,"Austin, TX",2190,Mid-Senior level,NA
+3905329594,Cyber Guardian Threat Solutions LLC,Financial Data Analyst,"Arlington, VA",76112399,NA,NA
+3905330491,BlackRock,"Vice President, Modelling Data Scientist | Senior Data Scientist I","New York, NY",4764,NA,NA
+3905331315,Visa,Staff Data Engineer,"Foster City, CA",2190,NA,NA
+3905331454,CHRISTUS Health,Information Technology Data Analyst II - Professional Development,"Irving, TX",10769,NA,NA
+3905333100,IntePros,Data Engineer II,"Bellevue, WA",23997,Entry level,NA
+3905333996,Truveta,"Data Analyst, Research Solutions",Greater Seattle Area,71451871,Mid-Senior level,NA
+3905335040,Lakeview,SR BI DATA ANALYST,"Coral Gables, FL",10685878,Mid-Senior level,NA
+3905335898,Stifel Financial Corp.,Data Engineer,"St Louis, MO",10194,Entry level,NA
+3905338344,SoCalGas,Senior Data Scientist (Perf. Mgmt & Org. Strategy) (Hybrid Schedule),Los Angeles Metropolitan Area,2295646,NA,NA
+3905338394,Cisco,"Senior Software Engineer, Data Engineering - ThousandEyes","San Francisco, CA",1063,NA,NA
+3905338566,Navy Federal Credit Union,Digital Engineer III (Azure Data Engineer),"Pensacola, FL",11568,Entry level,NA
+3905338567,Navy Federal Credit Union,Digital Engineer III (Azure Data Engineer),"Vienna, VA",11568,Entry level,NA
+3905338575,Navy Federal Credit Union,Data Scientist,"Vienna, VA",11568,Entry level,NA
+3905339070,Conagra Brands,Supply Chain Senior Data Scientist,"Omaha, NE",3493,Mid-Senior level,NA
+3905339074,Conagra Brands,Supply Chain Senior Data Scientist,"Omaha, NE",3493,Mid-Senior level,NA
+3905340858,STIIIZY,Data Engineer I,"Los Angeles, CA",19154367,Mid-Senior level,NA
+3905341047,Cogent Communications,"Optical Network Documentation and Data Engineer, W","Washington, DC",163139,Entry level,NA
+3905341063,Stifel Financial Corp.,Data Engineer,"Memphis, TN",10194,Entry level,NA
+3905341299,Navy Federal Credit Union,Data Scientist,"Pensacola, FL",11568,Entry level,NA
+3905342276,Navy Federal Credit Union,ETS Engineer IV - Data Engineer (AI/ML/NLP),"Vienna, VA",11568,Entry level,NA
+3905342285,Navy Federal Credit Union,Data Scientist,"Vienna, VA",11568,Entry level,NA
+3905344154,Navy Federal Credit Union,Data Scientist,"Pensacola, FL",11568,Entry level,NA
+3905344807,"Softworld, a Kelly Company","Data Analyst - Consumer Analytics - Hybrid in Dallas,  TX","Dallas, TX",14158,Mid-Senior level,NA
+3905361693,AbbVie,Associate Data Scientist - Recent Bio/Chem Grads,"North Chicago, IL",1304385,Entry level,NA
+3905364674,"University of California, San Francisco",Research Data Analyst,"San Francisco, CA",3028,NA,NA
+3905369048,CGI,AWS Data Engineer,"Fairfax, VA",1415,Entry level,NA
+3905371907,LexisNexis Risk Solutions,Senior Marketing Data Engineer,"Miamisburg, OH",10371941,Mid-Senior level,NA
+3905375426,U.S. Bank,Lead Cloud Online Data Engineer,"Brookfield, WI",2532,Mid-Senior level,NA
+3905377323,Moody's Corporation,VP Mgr-Data Engineering,"Charlotte, NC",165033,NA,NA
+3905380175,Northrop Grumman,Senior Principal Data Scientist,"Huntsville, AL",1412,Mid-Senior level,NA
+3905392660,Keurig Dr Pepper Inc.,Financial Data Analyst,"Frisco, TX",11777511,NA,NA
+3905648923,EnergyHub,Senior Data Analyst,United States,595749,Mid-Senior level,NA
+3905654821,Fixify,Senior Data Engineer,United States,99062951,Mid-Senior level,NA
+3905660585,Talentify.io,Data Analyst IV (Remote),United States,2204084,Mid-Senior level,NA
+3905663050,Rippling,Senior Compensation & People Data Analyst,"Austin, TX",17988315,Mid-Senior level,NA
+3905664005,Johnson & Johnson,Data Engineering intern,"Irvine, CA",1207,NA,NA
+3905696107,BioNTech SE,"Manager DD&I, Data Analyst Clinical Operations","Cambridge, MA",4001311,Mid-Senior level,NA
+3905815815,Plymouth Rock Assurance,Lead Marketing Data Analyst,"Woodbridge, NJ",540808,Mid-Senior level,NA
+3905819623,Plymouth Rock Assurance,Lead Data Scientist,"Woodbridge, NJ",540808,Mid-Senior level,NA
+3905821157,Fulton Bank,IT Sr Data Engineer Delivery,"Lancaster, PA",55167,Associate,NA
+3905821286,Plymouth Rock Assurance,Lead Data Scientist,"Woodbridge, NJ",540808,Mid-Senior level,NA
+3905823968,Carnival Corporation,Master Data Analyst,Miami-Fort Lauderdale Area,6977,Associate,NA
+3905826248,Verizon,Senior Data Scientist,"Irving, TX",1103,Mid-Senior level,NA
+3905826251,Verizon,Senior Data Scientist,"Basking Ridge, NJ",1103,Mid-Senior level,NA
+3905828035,L.E.K. Consulting,Senior Data Scientist,"Boston, MA",5210,Mid-Senior level,NA
+3905828147,Verizon,Senior Data Scientist,"Ashburn, VA",1103,Mid-Senior level,NA
+3905828148,Verizon,Senior Data Scientist,"Alpharetta, GA",1103,Mid-Senior level,NA
+3905830762,CNA Search,Data Engineer,"Atlanta, GA",76935845,Mid-Senior level,NA
+3905842941,Solü Technology Partners,Sr Data Analyst,"Phoenix, AZ",2587248,Mid-Senior level,NA
+3905843043,Marathon Health,Lead Data Analyst,"Burlington, VT",727156,NA,NA
+3905846001,The Judge Group,Senior Data Engineer,"Houston, TX",8117,Executive,NA
+3905849167,SPECTRAFORCE,"Data Analyst II (W2 Role, Only for locals to CA)","Rialto, CA",71350,Associate,NA
+3905853926,GRANT PETERS ASSOCIATES,Data Engineer,New York City Metropolitan Area,93958466,NA,NA
+3905854687,Lexical Intelligence,Data Analyst (Junior),Washington DC-Baltimore Area,3299509,NA,NA
+3905855625,TELUS International AI Data Solutions,Online Data Analyst | Work From Home,"North Carolina, United States",6611939,Entry level,NA
+3905858707,NAM Info Inc,Azure Lead Data Engineer,United States,1909776,Mid-Senior level,NA
+3905860144,Coders Data,Junior Data Analyst,United States,14508644,Entry level,NA
+3905860739,Revolution Technologies,Master Data Analyst,"Creve Coeur, MO",36676,Entry level,NA
+3905862977,Bayforce,SAP Data Analyst,"Mundelein, IL",72593,Mid-Senior level,NA
+3905864949,Integra FEC,Junior Data Scientist,"Austin, TX",6465593,NA,NA
+3905865983,Motion Recruitment,Business Data Analyst - Loans,"New York, NY",5887,Mid-Senior level,NA
+3905870863,Inclusively,IT Data Engineer,"Atlanta, GA",65909538,Mid-Senior level,NA
+3905871979,Plymouth Rock Assurance,Lead Marketing Data Analyst,"Woodbridge, NJ",540808,Mid-Senior level,NA
+3905873960,Dice,Data Engineer,"Cupertino, CA",6849,Entry level,NA
+3905874161,Aquarius Professional Staffing,Data Analyst,"Indianapolis, IN",333785,Mid-Senior level,NA
+3905875652,hackajob,Data Scientist,"McLean, VA",5396873,Mid-Senior level,NA
+3905875669,Apex Systems,Data Engineer,"Cincinnati, OH",4787,Entry level,NA
+3905875688,hackajob,Data Scientist,"McLean, VA",5396873,Mid-Senior level,NA
+3905877360,Sunnova Energy,Energy Policy & Data Analyst,United States,3165266,Entry level,NA
+3905877514,Apex Systems,Data Scientist,"The Woodlands, TX",4787,Entry level,NA
+3905878056,"Self Esteem Brands, LLC","Senior Data Engineer, DataBricks","Woodbury, MN",7944410,Mid-Senior level,NA
+3905885146,RSC Solutions,Data Analyst: 24-00481,"Plano, TX",2267949,Entry level,NA
+3905885194,Dice,Business Data Analyst,"Portland, OR",6849,Mid-Senior level,NA
+3905885197,Dice,Adobe Data Engineer || Remote,United States,6849,Entry level,NA
+3905885501,WEX,"Data Scientist III, Innovation","Portland, ME",11637,Entry level,NA
+3905886092,Dice,"SAP Data Analyst, MN/Remote - Direct Client","Maplewood, MN",6849,Entry level,NA
+3905887021,Dice,Data Scientist,"Pensacola, FL",6849,Entry level,NA
+3906064342,"Triumph Innovation, LLC",Data Engineer / Power BI Developer,United States,95050725,NA,NA
+3906075814,Info Way Solutions,Data Analyst or Data Product Manager (Native US Citizens Only),"Austin, TX",3998479,Mid-Senior level,NA
+3906077094,Educated Solutions Corp,Data Engineer,United States,1468533,Associate,NA
+3906078214,Harnham,Lead Data Engineer,"New York, NY",280603,Mid-Senior level,NA
+3906078751,Harnham,Senior Data Engineer,United States,280603,Mid-Senior level,NA
+3906085300,Atmospheric G2,Meteorological Data Scientist,"Manchester, NH",79693228,NA,NA
+3906091847,Vertisystem,Data Analyst,"Pennsylvania, United States",3009879,Mid-Senior level,NA
+3906092917,One to One Health,Data Scientist,"Chattanooga, TN",3341847,NA,NA
+3906096020,Infojini Inc,Data Analyst,"Greenville, SC",815009,Associate,NA
+3906098037,Etsy,"Data Scientist, Product Analytics","Brooklyn, NY",67849,Entry level,NA
+3906223439,Bayforce,Data Engineering Lead (Permanent Direct Hire),"New York, United States",72593,Mid-Senior level,NA
+3906224972,Verizon,Principal Data Scientist,"Ashburn, VA",1103,Mid-Senior level,NA
+3906225726,Medica,Senior Healthcare Data Analyst,United States,10086,Mid-Senior level,NA
+3906226694,Apt,Data Scientist,"Birmingham, AL",64274685,Mid-Senior level,NA
+3906226767,Verizon,Military Fellowship - Data Scientist,"Basking Ridge, NJ",1103,Associate,NA
+3906227596,Trace3,Data Analyst | Power BI (Remote),"Irvine, CA",57432,Mid-Senior level,NA
+3906227684,Wells Fargo,Data Analyst (contract),"Charlotte, NC",1235,Mid-Senior level,NA
+3906230754,PrimePay,Data Analyst,"West Chester, PA",21408,Entry level,NA
+3906231436,Bayforce,Data Engineer,"New York, United States",72593,Mid-Senior level,NA
+3906237182,General Mills,Sr Data Engineer,"Minneapolis, MN",2822,Mid-Senior level,NA
+3906246968,Cisco Meraki,Data Analyst,United States,92950,Entry level,NA
+3906249532,orangepeople,Data Analyst,"Orlando, FL",2708565,Mid-Senior level,NA
+3906251726,CHRISTUS Health,Data Analyst II - Staff Credentialing,"Irving, TX",10769,NA,NA
+3906252293,AAA Auto Club Enterprises,Data Engineer,"Costa Mesa, CA",76074281,Entry level,NA
+3906252346,Gensler,Data Scientist,"Washington, DC",5812,NA,NA
+3906254796,Huntress,Senior Data Analyst,United States,10172550,Mid-Senior level,NA
+3906255213,International Paper,Data Scientist,"Memphis, TN",3242,NA,NA
+3906255635,Turo,"Data Scientist, Marketing","San Francisco, CA",6645688,Entry level,NA
+3906259147,Advantis Global is becoming INSPYR Solutions,Data Engineer II,"North Reading, MA",336165,Mid-Senior level,NA
+3906259593,NA,Data Engineering Lead,"New York, NY",NA,Mid-Senior level,NA
+3906261179,Navy Federal Credit Union,Principal Data Scientist (Credit Risk & Decision Science),"Vienna, VA",11568,Entry level,NA
