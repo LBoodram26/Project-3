@@ -1,0 +1,109 @@
+---
+title: "Project 3"
+output: html_document
+date: "2026-10-13"
+---
+
+
+**Group Members:**  Lakeranie Boodram, Johnny Maldonado, Dylan DiTucci-Cappiello
+
+**Course:** DATA 607
+
+# DATA 607 – Group Project 3
+## Most Valued Data Science Skills – Approach
+
+### 1. Introduction
+
+The goal of our group for this project is to research the essential technical skills in the realm of data science that attract the attention of employers. Given that technology is advancing day by day, HR expect skilled specialists with various skills and capabilities related to data analysis and management. Therefore, we would like to learn more about what skills are in demand in different positions related to data analysis and data management and how they differ depending on the position in data science.
+
+Our intention is to analyze job posting information to identify trends related to employer needs of skills like Python, SQL, R, machine learning, Tableau, Power BI, and cloud computing, among others. Instead of presuming which skills are more valuable, we will rely on the data to substantiate our results.
+
+Our main research question is: **Which data science skills are most valued by employers?**
+
+We will also investigate differences in demand for skills across data analysts, data scientists, and data engineers, as well as variations by geographic area or experience depending on what the data allows us to determine.
+
+### 2. Data Collection and Sources
+
+Our team intends to use the LinkedIn Job Postings (2023–2024) dataset from Kaggle as the main reference point. 
+
+This dataset provides information about job titles, companies, locations, and technical skills related to job postings.
+We have chosen this dataset because it provides data that can help us understand the requirements that employers have for different roles related to data analysis. We will narrow down the records to data analyst, data scientist, and data engineer jobs.
+
+We also plan to use O*NET OnLine as a secondary source. O*NET provides occupational information and data about technology skills requested by employers. This will allow us to compare our findings with an established labor market source and determine whether similar skills appear in both.
+
+Moreover, one of the group members presented us an ArcGIS StoryMap showing us how we can use geographic data and visual storytelling to share analytical results. The StoryMap concentrates on landslide analysis instead of job data; however, we are able to reference it when thinking about how we can show geographic trends in our project.
+
+Before beginning the analysis, we will review the available datasets, identify relevant variables, and document how the information was obtained and loaded into R.
+
+### 3. Relational Database Design
+An important condition of the project is to keep our data in the relational database in the form of normalized tables.
+
+Our team intends to work with SQLite because it enables us to create and manage the relational database in the R environment.
+
+We are going to sort the data into separate tables for job advertisements, organizations, technical skills, and places.
+
+Additionally, tables will be created to connect the advertisements and relevant skills.
+
+Each table will have its own primary key, and related tables will be connected using foreign keys. This will help reduce duplicate information and maintain consistency throughout the database.
+
+To implement the database, load data sets, and get information for analysis purposes we intend to use the DBI and RSQLite packages.
+
+### 4. Data Cleaning and Preparation
+
+When all the data is uploaded onto the platform, any missing values, duplicate entries, incorrect formats, and discrepancies in the information will be checked and any outliers identified.
+
+At the same time, different terms describing the same skills (like SQL and Structured Query Language) can also be found in the dataset, which will be dealt with in the appropriate way to ensure consistency.
+
+Moreover, different job titles will also be analyzed to allow for grouping of similar roles into broader categories (e.g. data analyst, data scientist, or data engineer).
+
+In terms of missing data, we will understand whether it is still possible to use that data in the analysis or not (exclude certain records from the specific comparison). We will check any numerical variables for abnormal values and pinpoint the outliers before making any decisions on the datasets.
+
+All data transformation processes will be conducted in R using specific packages such as `dplyr`, `tidyr`, and `stringr` to ensure that all changes are being documented properly.
+
+### 5. Exploratory Data Analysis
+
+Once we have finished preparing the data, the next step is to carry out exploratory data analysis with the help of R programming language which would help us find out what technical skills employers are interested in.
+
+We will find out how many times different technical skills are present in the job advertisements we will analyze.
+
+Finally, we will compare how many times different technical skills are indicated regarding different job categories, in order to understand if there are different skills ac/recommended for each job.
+
+If we find enough data, we might also research the skill requirements for this job by experience level or location.
+
+We plan to use `ggplot2` to create bar charts, comparison charts, and potentially a geographic visualization. The ArcGIS StoryMap shared by our teammate will serve as a reference for presenting geographic information clearly if we decide that a map would add value to our findings.
+
+We will also compare our results with O*NET data to identify similarities or differences in reported skill demand. Since the datasets may cover different time periods and populations, we will analyze their results separately.
+
+### 6. Group Collaboration and Project Organization
+We have formed a group of five people who will take care of different aspects of the project, starting from gathering the data to its preparation, design, analysis, and reporting.
+
+
+Our team has decided to use GitHub as a platform for sharing all the files concerning our work.
+
+
+In spite of the fact that every member is in charge of a small task, they will take an active part in conducting the analysis together.
+
+
+As for the final presentation, every section will be handled by a member of the group. All of the workers will find themselves in a position to comment on the data.
+
+### 7. Expected Outcome
+
+This project aims to find out the technical abilities which come up the most in the data science job posts and to show the differences in employer requirements based on job functions.
+
+Our conclusion will be based on the data rather than a guess of what skills should be considered important.
+
+We take into account the fact that the job postings dated back to 2023 or 2024 may not reflect the job market of the year 2026; besides, it is unlikely that all the required skills will be mentioned in the postings.
+
+The final project will include people’s work on the database design and R coding as well as graphical representations and presentation summarizing our findings.
+
+### References
+
+Kaggle. (n.d.). *LinkedIn job postings (2023–2024)* [Data set]. https://www.kaggle.com/datasets/arshkon/linkedin-job-postings
+
+National Center for O*NET Development. (n.d.). *In-demand technology skills: Data scientists.* O*NET OnLine. https://www.onetonline.org/link/demand/15-2051.00
+
+ArcGIS StoryMaps. (n.d.). *Using satellite information to understand & model landslide.* https://storymaps.arcgis.com/stories/61c6100d40bd47749e435e79bd54f480
+
+R Core Team. (n.d.). *The R project for statistical computing.* https://www.r-project.org/
+
+SQLite. (n.d.). *SQLite documentation.* https://www.sqlite.org/docs.html
