@@ -1,0 +1,1473 @@
+---
+title: 'DATA 607 – Project 3: Most Valued Data Science Skills'
+author: "Lakeranie Boodram, Johnny Maldonado, Dylan DiTucci-Cappiello"
+date: "2026-10-18"
+output: html_document
+---
+
+## 1. Introduction
+
+The purpose of this project is to investigate which technical
+skills are most valued by employers hiring data science
+professionals.
+
+Our group examined LinkedIn job posting data from 2023
+and 2024 to identify frequently requested skills such as
+Python, SQL, R, machine learning, Tableau, Power BI, and
+cloud computing.
+
+We also compared skill requirements across data analysts,
+data scientists, and data engineers.
+
+Our analysis included data cleaning, relational database
+management using SQLite, exploratory data analysis, and
+data visualizations in R.
+
+Our main research question is:
+
+**Which data science skills are most valued by employers?**
+
+## 2. Loading Required Libraries
+
+We used R packages to import, clean, organize, store, and
+analyze our data. These packages also allowed us to create
+visualizations and manage our relational database.
+
+
+```{r setup, message=FALSE, warning=FALSE}
+# Load the libraries needed for this project
+
+library(tidyverse)
+library(DBI)
+library(RSQLite)
+library(readxl)
+library(knitr)
+```
+
+## 3. Dataset Source and Scope
+
+We originally downloaded the LinkedIn job postings dataset from Kaggle and filtered it to focus on Data Analyst, Data Scientist, and Data Engineer positions. After filtering the data, we saved the smaller dataset to GitHub so it would be easier for our group to access and reproduce the analysis.
+
+
+```{r load-filtered-jobs}
+# Load the filtered LinkedIn job postings from GitHub
+
+
+data_url <- paste0(
+  "https://raw.githubusercontent.com/LBoodram26/",
+  "Project-3/Data/"
+)
+
+data_jobs <- read_csv(
+  paste0(data_url, "data_jobs.csv"),
+  show_col_types = FALSE,
+  col_types = cols(job_id = col_character())
+)
+
+# Confirm the dataset loaded
+dim(data_jobs)
+```
+
+
+## 4. Importing the Filtered Dataset from GitHub
+
+Our filtered LinkedIn dataset has been uploaded to GitHub.
+We imported the CSV directly into R to make the analysis
+accessible and reproducible for all group members.
+
+```{r import-github-data}
+
+# Check the number of rows and columns
+dim(data_jobs)
+
+# Preview the first six records
+head(data_jobs)
+
+# Display the column names
+names(data_jobs)
+```
+
+## 5. Data Cleaning and Quality Checks
+
+Before performing our analysis, we examined the dataset for
+missing values and duplicate records. This helped us understand
+the quality of the data and identify what needed to be cleaned.
+
+We also reviewed the job titles and experience levels to
+make sure the information was consistent before creating our
+relational database.
+
+### 5.1 Checking Missing Values
+
+```{r missing-values}
+# Count missing values in each column
+
+missing_values <- data_jobs %>%
+  summarise(across(
+    everything(),
+    ~ sum(is.na(.))
+  ))
+
+# Display the results
+knitr::kable(missing_values)
+```
+
+
+### 5.2 Checking Duplicate Records
+
+```{r check-duplicates}
+# Check the number of duplicate job IDs
+
+duplicate_jobs <- sum(duplicated(data_jobs$job_id))
+
+# Display the result
+duplicate_jobs
+```
+
+
+### 5.3 Reviewing Experience Levels
+
+```{r experience-levels}
+# Count job postings by experience level
+
+experience_summary <- data_jobs %>%
+  count(formatted_experience_level, sort = TRUE)
+
+# Display the results
+knitr::kable(experience_summary)
+```
+
+### 5.4 Cleaning and Standardizing the Data
+
+After reviewing the missing values and experience levels,
+we prepared the dataset for our analysis. We
+remove duplicate job IDs, standardize the job categories,
+and label missing experience levels as "Not Specified."
+
+We kept records with missing skill descriptions
+because we used supplementary skill data from
+Kaggle.
+
+
+```{r clean-job-data}
+# Clean and standardize the job posting data
+
+data_jobs_clean <- data_jobs %>%
+  distinct(job_id, .keep_all = TRUE) %>%
+  mutate(
+    job_category = case_when(
+      str_detect(str_to_lower(title), "data scientist") ~ "Data Scientist",
+      str_detect(str_to_lower(title), "data engineer") ~ "Data Engineer",
+      str_detect(str_to_lower(title), "data analyst") ~ "Data Analyst",
+      TRUE ~ "Other"
+    ),
+    experience_level = if_else(
+      is.na(formatted_experience_level),
+      "Not Specified",
+      formatted_experience_level
+    )
+  )
+
+# Check the cleaned job categories
+data_jobs_clean %>%
+  count(job_category)
+
+# Confirm the total number of records
+nrow(data_jobs_clean)
+```
+
+## 6. Creating a Relational Database
+
+We used SQLite to organize our cleaned job posting data into
+normalized relational tables. Instead of storing the same company
+and location information repeatedly, we separated the data
+into related tables and connect them using primary and foreign keys.
+
+We used the DBI and RSQLite packages to create and manage
+our database.
+
+
+### 6.1 Setting Up the Database
+
+```{r create-database}
+
+# Create the database folder
+dir.create("database", showWarnings = FALSE)
+
+# Create the database connection
+con <- dbConnect(
+  SQLite(),
+  "database/data_science_skills.sqlite"
+)
+
+# Enable foreign key constraints
+dbExecute(con, "PRAGMA foreign_keys = ON")
+
+# Remove existing tables before rebuilding
+# Delete child tables before parent tables
+dbExecute(con, "DROP TABLE IF EXISTS Posting_Skills")
+dbExecute(con, "DROP TABLE IF EXISTS Skills")
+dbExecute(con, "DROP TABLE IF EXISTS Job_Postings")
+dbExecute(con, "DROP TABLE IF EXISTS Locations")
+dbExecute(con, "DROP TABLE IF EXISTS Companies")
+
+# Verify connection
+dbIsValid(con)
+```
+
+### 6.2 Creating Normalized Relational Tables
+
+We separated the cleaned job posting data into
+relational tables for companies, locations, and job postings.
+
+The Companies table stores company information, while
+the Locations table stores unique job locations.
+The Job_Postings table contains the individual postings
+and connect them to the other tables using foreign keys.
+
+This structure reduces repeated information and help
+maintain consistency in our database.
+
+
+```{r create-companies-table}
+# Create a table containing unique companies
+
+companies <- data_jobs_clean %>%
+  filter(!is.na(company_name)) %>%
+  distinct(company_name) %>%
+  arrange(company_name) %>%
+  mutate(company_key = row_number()) %>%
+  select(company_key, company_name)
+
+# Create the Companies table with a primary key
+dbExecute(con, "
+  CREATE TABLE IF NOT EXISTS Companies (
+    company_key INTEGER PRIMARY KEY,
+    company_name TEXT NOT NULL UNIQUE
+  )
+")
+
+# Insert company records
+dbWriteTable(
+  con,
+  "Companies",
+  companies,
+  append = TRUE
+)
+
+# Check the records
+head(companies)
+```
+
+```{r create-locations-table}
+# Create a table containing unique locations
+
+locations <- data_jobs_clean %>%
+  filter(!is.na(location)) %>%
+  distinct(location) %>%
+  arrange(location) %>%
+  mutate(location_key = row_number()) %>%
+  select(location_key, location)
+
+# Create the Locations table with a primary key
+dbExecute(con, "
+  CREATE TABLE IF NOT EXISTS Locations (
+    location_key INTEGER PRIMARY KEY,
+    location TEXT NOT NULL UNIQUE
+  )
+")
+
+# Insert location records
+dbWriteTable(
+  con,
+  "Locations",
+  locations,
+  append = TRUE
+)
+
+# Check the records
+head(locations)
+```
+
+```{r create-job-postings-table}
+# Connect job postings with the company and location tables
+
+job_postings <- data_jobs_clean %>%
+  left_join(companies, by = "company_name") %>%
+  left_join(locations, by = "location") %>%
+  transmute(
+    job_id = as.character(job_id),
+    company_key,
+    location_key,
+    title,
+    job_category,
+    experience_level
+  )
+
+# Create the Job_Postings table with foreign keys
+dbExecute(con, "
+  CREATE TABLE IF NOT EXISTS Job_Postings (
+    job_id TEXT PRIMARY KEY,
+    company_key INTEGER,
+    location_key INTEGER,
+    title TEXT,
+    job_category TEXT,
+    experience_level TEXT,
+    FOREIGN KEY (company_key)
+      REFERENCES Companies(company_key),
+    FOREIGN KEY (location_key)
+      REFERENCES Locations(location_key)
+  )
+")
+
+# Insert job posting records
+dbWriteTable(
+  con,
+  "Job_Postings",
+  job_postings,
+  append = TRUE
+)
+
+# Preview the records
+head(job_postings)
+```
+
+### 6.3 Checking Database Tables
+
+```{r verify-database}
+# List the tables created in SQLite
+dbListTables(con)
+
+# Count records stored in each table
+dbGetQuery(con, "
+  SELECT 'Companies' AS table_name, COUNT(*) AS records
+  FROM Companies
+  UNION ALL
+  SELECT 'Locations', COUNT(*)
+  FROM Locations
+  UNION ALL
+  SELECT 'Job_Postings', COUNT(*)
+  FROM Job_Postings
+")
+```
+
+### 6.4 Verifying Database Relationships
+
+After creating the relational tables, we checked whether the
+job postings can be connected to their company and location
+information.
+
+We used SQL JOIN statements to retrieve information from
+multiple tables. This helps us confirm that our primary
+and foreign keys are working correctly.
+
+
+```{r verify-table-relationships}
+# Join job postings with companies and locations
+
+joined_jobs <- dbGetQuery(con, "
+  SELECT
+    j.job_id,
+    j.title,
+    j.job_category,
+    c.company_name,
+    l.location,
+    j.experience_level
+  FROM Job_Postings AS j
+  LEFT JOIN Companies AS c
+    ON j.company_key = c.company_key
+  LEFT JOIN Locations AS l
+    ON j.location_key = l.location_key
+  LIMIT 10
+")
+
+# Display the results
+knitr::kable(joined_jobs)
+```
+
+```{r check-foreign-keys}
+# Check for foreign key violations
+
+foreign_key_check <- dbGetQuery(
+  con,
+  "PRAGMA foreign_key_check"
+)
+
+# Display results
+foreign_key_check
+```
+
+## 7. Importing and Organizing Skill Data
+
+We imported two additional files from the LinkedIn dataset.
+The job_skills.csv file connects job postings with skill codes,
+while skills.csv provides the names of those skill categories.
+
+We matched the skill records to our filtered job postings
+and prepare them for our relational database.
+
+### 7.1 Importing the Supplementary Files
+
+```{r import-skills-data}
+# Import the supplementary LinkedIn datasets from GitHub
+
+job_skills <- read_csv(
+  paste0(data_url, "job_skills.csv"),
+  show_col_types = FALSE,
+  col_types = cols(job_id = col_character())
+)
+
+skills <- read_csv(
+  paste0(data_url, "skills.csv"),
+  show_col_types = FALSE
+)
+
+# Check the dataset dimensions
+dim(job_skills)
+dim(skills)
+
+# Preview the files
+head(job_skills)
+head(skills)
+```
+
+### 7.2 Matching Skills to Job Postings
+
+We matched job IDs from the skill dataset with the job IDs
+in our cleaned job posting dataset. This allows us to keep
+only the skill records relevant to our research.
+
+We also checked for duplicate relationships and confirmed
+that the skill codes have matching descriptions.
+
+
+```{r match-job-skills}
+
+# Keep only skills associated with our cleaned jobs
+job_skills_filtered <- job_skills %>%
+  semi_join(
+    data_jobs_clean %>%
+      select(job_id),
+    by = "job_id"
+  ) %>%
+  distinct(job_id, skill_abr)
+
+# Match skill codes with their category names
+job_skills_named <- job_skills_filtered %>%
+  left_join(skills, by = "skill_abr")
+
+# Verify the matched records
+nrow(job_skills_filtered)
+n_distinct(job_skills_filtered$job_id)
+
+# Check missing skill names
+sum(is.na(job_skills_named$skill_name))
+
+# Preview the results
+knitr::kable(head(job_skills_named, 10))
+```
+
+### 7.3 Creating the Skills and Posting_Skills Tables
+
+We created two additional relational tables in SQLite.
+The Skills table stores unique skill categories, while the
+Posting_Skills table connects job postings with their
+associated skill categories.
+
+This establishes a many-to-many relationship between job
+postings and skills while reducing duplicate information.
+
+
+```{r create-skills-table}
+# Create a table of unique skill categories
+
+skills_table <- skills %>%
+  distinct(skill_abr, skill_name) %>%
+  filter(!is.na(skill_abr), !is.na(skill_name))
+
+# Create the Skills table
+dbExecute(con, "
+  CREATE TABLE IF NOT EXISTS Skills (
+    skill_abr TEXT PRIMARY KEY,
+    skill_name TEXT NOT NULL
+  )
+")
+
+# Insert the skill categories
+dbWriteTable(
+  con,
+  "Skills",
+  skills_table,
+  append = TRUE
+)
+
+# Verify the number of records
+dbGetQuery(con, "SELECT COUNT(*) AS total_skills FROM Skills")
+```
+
+```{r create-posting-skills-table}
+# Prepare the linking table
+
+posting_skills_table <- job_skills_filtered %>%
+  distinct(job_id, skill_abr) %>%
+  filter(!is.na(job_id), !is.na(skill_abr))
+
+# Create the many-to-many linking table
+dbExecute(con, "
+  CREATE TABLE IF NOT EXISTS Posting_Skills (
+    job_id TEXT NOT NULL,
+    skill_abr TEXT NOT NULL,
+    PRIMARY KEY (job_id, skill_abr),
+    FOREIGN KEY (job_id) REFERENCES Job_Postings(job_id),
+    FOREIGN KEY (skill_abr) REFERENCES Skills(skill_abr)
+  )
+")
+
+# Insert the matching records
+dbWriteTable(
+  con,
+  "Posting_Skills",
+  posting_skills_table,
+  append = TRUE
+)
+
+# Check the total relationships
+dbGetQuery(con, "
+  SELECT COUNT(*) AS total_relationships
+  FROM Posting_Skills
+")
+```
+
+```{r verify-all-tables}
+# Display all database tables
+dbListTables(con)
+
+# Check the number of records in each table
+table_summary <- dbGetQuery(con, "
+  SELECT 'Companies' AS table_name, COUNT(*) AS records FROM Companies
+  UNION ALL
+  SELECT 'Locations', COUNT(*) FROM Locations
+  UNION ALL
+  SELECT 'Job_Postings', COUNT(*) FROM Job_Postings
+  UNION ALL
+  SELECT 'Skills', COUNT(*) FROM Skills
+  UNION ALL
+  SELECT 'Posting_Skills', COUNT(*) FROM Posting_Skills
+")
+
+knitr::kable(table_summary)
+
+# Check for broken foreign key references
+dbGetQuery(con, "PRAGMA foreign_key_check")
+```
+
+## 8. Exploratory Data Analysis
+
+We used exploratory data analysis to examine patterns in the
+LinkedIn job posting dataset. Our goal is to identify which skill
+categories appear most frequently and compare how these
+requirements vary across data science job roles.
+
+We used SQL to retrieve information from our relational
+database and R to summarize and visualize the results.
+
+
+### 8.1 Calculating Skill Category Demand
+
+```{r skill-frequency-analysis}
+# Calculate the frequency of each skill category
+
+skill_frequency <- dbGetQuery(con, "
+  SELECT
+    s.skill_name,
+    COUNT(DISTINCT ps.job_id) AS job_count
+  FROM Posting_Skills AS ps
+  INNER JOIN Skills AS s
+    ON ps.skill_abr = s.skill_abr
+  GROUP BY s.skill_name
+  ORDER BY job_count DESC
+")
+
+# Calculate percentages using all 1,052 postings
+skill_frequency <- skill_frequency %>%
+  mutate(
+    percentage = round(job_count / nrow(data_jobs_clean) * 100, 1)
+  )
+
+# Display the results
+knitr::kable(skill_frequency)
+```
+
+### 8.2 Visualizing Skill Category Demand
+
+To better understand which skill categories appear most frequently
+in the LinkedIn job postings, we created a horizontal bar chart.
+
+The chart displays the percentage of job postings associated
+with each skill category. This helps us identify the most
+common skill requirements and make comparisons between categories.
+
+We used ggplot2 to create the visualization.
+
+```{r skill-frequency-chart}
+
+# Select the 10 most frequently listed skill categories
+top_skills <- skill_frequency %>%
+  arrange(desc(job_count)) %>%
+  slice_head(n = 10)
+
+# Create a horizontal bar chart
+ggplot(
+  top_skills,
+  aes(
+    x = reorder(skill_name, percentage),
+    y = percentage
+  )
+) +
+  geom_col(fill = "steelblue") +
+  geom_text(
+    aes(label = paste0(percentage, "%")),
+    hjust = -0.1,
+    size = 3.5
+  ) +
+  coord_flip() +
+  scale_y_continuous(
+    limits = c(0, max(top_skills$percentage) * 1.15)
+  ) +
+  labs(
+    title = "Top 10 Skill Categories in Data Science Job Postings",
+    subtitle = "LinkedIn job postings (2023–2024)",
+    x = "Skill Category",
+    y = "Percentage of All Job Postings",
+    caption = "Source: Kaggle LinkedIn Job Postings Dataset"
+  ) +
+  theme_minimal()
+```
+
+### 8.3 Comparing Skill Categories Across Job Roles
+
+We compared skill category requirements across Data Analyst,
+Data Scientist, and Data Engineer positions.
+
+This analysis helps us identify differences in employer
+requirements based on job role. We calculated the percentage
+of postings mentioning each skill category within each role.
+
+
+```{r skill-categories-by-role}
+# Calculate skill category demand by job role
+
+role_skill_summary <- dbGetQuery(con, "
+  SELECT
+    j.job_category,
+    s.skill_name,
+    COUNT(DISTINCT ps.job_id) AS job_count
+  FROM Job_Postings AS j
+  INNER JOIN Posting_Skills AS ps
+    ON j.job_id = ps.job_id
+  INNER JOIN Skills AS s
+    ON ps.skill_abr = s.skill_abr
+  GROUP BY j.job_category, s.skill_name
+")
+
+# Calculate total postings in each job category
+role_totals <- dbGetQuery(con, "
+  SELECT
+    job_category,
+    COUNT(*) AS total_jobs
+  FROM Job_Postings
+  GROUP BY job_category
+")
+
+# Calculate percentages within each job category
+role_skill_summary <- role_skill_summary %>%
+  left_join(role_totals, by = "job_category") %>%
+  mutate(
+    percentage = round(job_count / total_jobs * 100, 1)
+  )
+
+# Display the results
+knitr::kable(head(role_skill_summary, 15))
+```
+
+### 8.4 Visualizing Skill Categories by Job Role
+
+We created a grouped bar chart to compare skill categories
+across Data Analyst, Data Scientist, and Data Engineer positions.
+
+This helps us identify how frequently different skill
+categories appear within each job role and highlight
+differences in employer requirements.
+
+
+```{r compare-skills-by-role}
+# Select the five most common skill categories overall
+
+top_five_skills <- skill_frequency %>%
+  arrange(desc(job_count)) %>%
+  slice_head(n = 5) %>%
+  pull(skill_name)
+
+# Filter the role comparison data
+role_skill_plot <- role_skill_summary %>%
+  filter(skill_name %in% top_five_skills) %>%
+  select(job_category, skill_name, percentage)
+
+# Create a grouped bar chart
+ggplot(
+  role_skill_plot,
+  aes(
+    x = skill_name,
+    y = percentage,
+    fill = job_category
+  )
+) +
+  geom_col(
+    position = position_dodge(width = 0.8),
+    width = 0.7
+  ) +
+  coord_flip() +
+  labs(
+    title = "Skill Categories by Data Science Job Role",
+    subtitle = "Comparison of Data Analyst, Data Scientist, and Data Engineer",
+    x = "Skill Category",
+    y = "Percentage of Postings Within Each Role",
+    fill = "Job Role",
+    caption = "Source: Kaggle LinkedIn Job Postings (2023–2024)"
+  ) +
+  theme_minimal()
+```
+
+## 9. Identifying Specific Technical Skills
+
+Although the supplementary skill files provide general skill
+categories, our research focuses on specific technical skills.
+
+We examined job descriptions to identify mentions of
+technologies such as Python, SQL, R, machine learning, Tableau,
+Power BI, and cloud platforms.
+
+This allows us to compare technical skill requirements
+across different data science job roles.
+
+### 9.1 Checking Available Job Descriptions
+
+```{r check-job-descriptions}
+# Check whether the original dataset is available
+exists("postings")
+
+# Check whether it contains job descriptions
+if (exists("postings")) {
+  "description" %in% names(postings)
+}
+```
+
+### 9.2 Preparing Job Descriptions
+
+We originally extracted job descriptions from the LinkedIn
+dataset and matched them to our 1,052 selected job postings.
+
+We saved the smaller file to GitHub so our group could access
+the descriptions without downloading the entire original dataset.
+
+We used these descriptions to identify specific technical
+skills mentioned by employers.
+
+
+### 9.3 Importing Job Descriptions from GitHub
+
+We imported the filtered job descriptions from our GitHub
+repository. This allows us to analyze technical skills using
+the same dataset without requiring other group members to
+download the original large CSV file.
+
+
+```{r import-job-descriptions}
+
+# Import job descriptions from GitHub
+job_descriptions <- read_csv(
+  paste0(data_url, "job_descriptions.csv"),
+  col_types = cols(
+    job_id = col_character(),
+    description = col_character()
+  )
+)
+
+# Verify the number of records
+nrow(job_descriptions)
+
+# Check missing descriptions
+sum(
+  is.na(job_descriptions$description) |
+  trimws(job_descriptions$description) == ""
+)
+
+# Preview the dataset
+job_descriptions %>%
+  mutate(description_length = nchar(description)) %>%
+  select(job_id, description_length) %>%
+  head(10) %>%
+  knitr::kable()
+```
+
+### 9.4 Identifying Technical Skills
+
+We searched job descriptions for mentions of selected
+technical skills, including Python, SQL, R, machine learning,
+Tableau, Power BI, and cloud technologies.
+
+We used string matching in R to identify whether each
+job posting mentions a particular technology. Each skill
+was counted only once per posting, even if it appears
+multiple times in the description.
+
+
+```{r identify-technical-skills}
+
+# Define technical skills and search patterns
+skill_patterns <- c(
+  Python = "\\bpython\\b",
+  SQL = "\\bsql\\b",
+  R = "\\bR\\b",
+  `Machine Learning` = "\\bmachine learning\\b",
+  Tableau = "\\btableau\\b",
+  `Power BI` = "\\bpower\\s*bi\\b",
+  Cloud = "\\b(aws|azure|gcp|google cloud|cloud computing)\\b"
+)
+
+# Identify mentions of each skill in job descriptions
+technical_skills <- job_descriptions %>%
+  mutate(
+    across(
+      description,
+      ~ replace_na(.x, "")
+    )
+  ) %>%
+  mutate(
+    Python = str_detect(description, regex(skill_patterns["Python"], ignore_case = TRUE)),
+    SQL = str_detect(description, regex(skill_patterns["SQL"], ignore_case = TRUE)),
+    R = str_detect(description, regex(skill_patterns["R"], ignore_case = FALSE)),
+    `Machine Learning` = str_detect(description, regex(skill_patterns["Machine Learning"], ignore_case = TRUE)),
+    Tableau = str_detect(description, regex(skill_patterns["Tableau"], ignore_case = TRUE)),
+    `Power BI` = str_detect(description, regex(skill_patterns["Power BI"], ignore_case = TRUE)),
+    Cloud = str_detect(description, regex(skill_patterns["Cloud"], ignore_case = TRUE))
+  )
+
+# Preview results
+technical_skills %>%
+  select(-description) %>%
+  head(10) %>%
+  knitr::kable()
+```
+
+### 9.4.1 Refining R Skill Detection
+
+We identified that some job descriptions reference R&D
+(Research and Development), which could be mistaken for
+the R programming language.
+
+We removed R&D references from the text before
+checking for R programming mentions. This allows us
+to retain postings that mention both R&D and R programming.
+
+
+```{r refine-r-detection}
+# Remove R&D references before checking for R
+
+technical_skills <- technical_skills %>%
+  mutate(
+    description_without_rd = str_remove_all(
+      description,
+      regex("\\bR\\s*&\\s*D\\b", ignore_case = TRUE)
+    ),
+    R = str_detect(
+      description_without_rd,
+      "\\bR\\b"
+    )
+  )
+
+```
+
+### 9.5 Calculating Technical Skill Demand
+
+We calculated how frequently each technical skill appears
+in the job descriptions. Each skill was counted once per
+posting, regardless of how many times it is mentioned.
+
+We then calculated the percentage of job postings mentioning
+each skill and rank the results to identify which technologies
+appear most frequently.
+
+
+```{r technical-skill-frequency}
+# Convert skill detection results into long format
+
+technical_skills_long <- technical_skills %>%
+  select(
+    job_id, Python, SQL, R,
+    `Machine Learning`, Tableau, `Power BI`, Cloud
+  ) %>%
+  pivot_longer(
+    cols = -job_id,
+    names_to = "skill",
+    values_to = "mentioned"
+  )
+
+# Calculate technical skill frequencies
+technical_skill_frequency <- technical_skills_long %>%
+  group_by(skill) %>%
+  summarise(
+    job_count = sum(mentioned, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    percentage = round(
+      job_count / nrow(data_jobs_clean) * 100, 1
+    )
+  ) %>%
+  arrange(desc(job_count))
+
+# Display the results
+knitr::kable(technical_skill_frequency)
+```
+
+### 9.6 Visualizing Technical Skill Demand
+
+We created a bar chart to compare how frequently specific
+technical skills appear in the LinkedIn job descriptions.
+
+This visualization helps us identify which technologies
+are mentioned most frequently across the selected data-related
+job postings.
+
+
+```{r technical-skills-chart}
+# Create a horizontal bar chart of technical skill mentions
+
+ggplot(
+  technical_skill_frequency,
+  aes(
+    x = reorder(skill, percentage),
+    y = percentage
+  )
+) +
+  geom_col(fill = "steelblue") +
+  geom_text(
+    aes(label = paste0(percentage, "%")),
+    hjust = -0.15,
+    size = 4
+  ) +
+  coord_flip() +
+  scale_y_continuous(
+    limits = c(0, max(technical_skill_frequency$percentage) * 1.15)
+  ) +
+  labs(
+    title = "Most Frequently Mentioned Technical Skills",
+    subtitle = "1,052 LinkedIn Data-Related Job Postings (2023–2024)",
+    x = "Technical Skill",
+    y = "Percentage of Job Postings",
+    caption = "Source: Kaggle LinkedIn Job Postings Dataset"
+  ) +
+  theme_minimal()
+```
+
+### 9.7 Validating Technical Skill Detection
+
+We reviewed a sample of job descriptions to check whether
+our text-matching method correctly identifies technical skills.
+
+This step is important because some technology names may appear
+in different contexts. We focused on verifying R and checking
+that our results accurately reflect technology mentions.
+
+
+```{r validate-technical-skills}
+# Review the context surrounding R matches
+
+r_matches <- technical_skills %>%
+  filter(R == TRUE) %>%
+  slice_head(n = 10) %>%
+  mutate(
+    match_location = str_locate(description, "\\bR\\b")[, 1],
+
+    match_context = str_sub(
+      description,
+      pmax(1, match_location - 60),
+      match_location + 60
+    )
+  ) %>%
+  select(job_id, match_context)
+
+# Display the results
+knitr::kable(r_matches)
+```
+
+### 9.8 Comparing Technical Skills Across Job Roles
+
+We compared technical skill mentions across Data Analyst,
+Data Scientist, and Data Engineer job postings.
+
+This analysis helps us understand whether certain
+technologies are mentioned more frequently for specific roles.
+We calculated percentages within each job category so
+the results can be compared fairly.
+
+
+```{r compare-technical-skills-by-role}
+# Match technical skills with job categories
+
+technical_skills_by_role <- technical_skills %>%
+  select(
+    job_id, Python, SQL, R,
+    `Machine Learning`, Tableau, `Power BI`, Cloud
+  ) %>%
+  left_join(
+    data_jobs_clean %>%
+      select(job_id, job_category),
+    by = "job_id"
+  ) %>%
+  pivot_longer(
+    cols = c(
+      Python, SQL, R, `Machine Learning`,
+      Tableau, `Power BI`, Cloud
+    ),
+    names_to = "skill",
+    values_to = "mentioned"
+  )
+
+# Calculate skill frequency within each role
+role_technical_summary <- technical_skills_by_role %>%
+  filter(!is.na(job_category)) %>%
+  group_by(job_category, skill) %>%
+  summarise(
+    job_count = sum(mentioned, na.rm = TRUE),
+    total_jobs = n_distinct(job_id),
+    percentage = round(job_count / total_jobs * 100, 1),
+    .groups = "drop"
+  )
+
+# Display the results
+knitr::kable(role_technical_summary)
+```
+
+
+### 9.9 Visualizing Technical Skills Across Job Roles
+
+We created a grouped bar chart to compare technical
+skill mentions across Data Analyst, Data Scientist, and
+Data Engineer positions.
+
+This visualization helps us identify which technologies
+are most frequently mentioned for each role and understand
+how technical skill requirements differ between occupations.
+
+
+```{r technical-skills-by-role-chart}
+# Create a grouped bar chart comparing technical skills
+
+ggplot(
+  role_technical_summary,
+  aes(
+    x = skill,
+    y = percentage,
+    fill = job_category
+  )
+) +
+  geom_col(
+    position = position_dodge(width = 0.8),
+    width = 0.7
+  ) +
+  coord_flip() +
+  scale_y_continuous(
+    breaks = seq(0, 100, 20),
+    limits = c(0, 100)
+  ) +
+  labs(
+    title = "Technical Skill Mentions by Data Science Job Role",
+    subtitle = "LinkedIn Job Postings (2023–2024)",
+    x = "Technical Skill",
+    y = "Percentage of Postings Within Each Role",
+    fill = "Job Role",
+    caption = "Source: Kaggle LinkedIn Job Postings Dataset"
+  ) +
+  theme_minimal()
+```
+
+## 10. Data Quality and Limitations
+
+Our analysis uses LinkedIn job postings from 2023 and 2024.
+We selected 1,052 postings associated with Data Analyst,
+Data Scientist, and Data Engineer positions.
+
+We identified technical skills by searching job descriptions
+for technology names. Although this approach helps us
+measure how frequently skills are mentioned, it does not
+always indicate whether a skill is required or preferred.
+
+We also identified potential false positives when searching
+for the R programming language. We refined our detection
+method to reduce incorrect matches involving R&D.
+
+Our findings represent the selected LinkedIn job postings
+rather than the entire data science job market. Because
+the dataset covers 2023–2024, it may not reflect current
+hiring trends.
+
+
+```{r description-quality-check}
+# Count missing and available descriptions
+
+description_quality <- job_descriptions %>%
+  summarise(
+    total_records = n(),
+    missing_descriptions = sum(
+      is.na(description) | trimws(description) == ""
+    ),
+    available_descriptions = total_records - missing_descriptions
+  )
+
+knitr::kable(description_quality)
+```
+
+## 11. Comparing LinkedIn Findings with O*NET
+
+To provide another perspective on technical skill demand,
+we used the O*NET Software Skills dataset as a secondary source.
+
+We selected three occupations related to our LinkedIn job
+categories and examined the software technologies associated
+with each occupation.
+
+Since LinkedIn and O*NET measure different aspects of skill
+demand, we compared the findings separately rather than
+treating them as equivalent measurements.
+
+### 11.1 Importing O*NET Software Skills Data
+
+We used the O*NET Software Skills dataset as a secondary
+source to compare our LinkedIn findings with occupational
+technology information.
+
+We focused on data-related occupations and identify the
+software technologies associated with each occupation.
+
+
+```{r import-onet-data}
+
+# Download the O*NET Excel file from GitHub
+onet_url <- paste0(
+  "https://raw.githubusercontent.com/LBoodram26/",
+  "Project-3/Data/Software%20Skills.xlsx"
+)
+
+onet_file <- tempfile(fileext = ".xlsx")
+download.file(onet_url, onet_file, mode = "wb")
+
+# Import the Excel dataset
+onet_skills <- read_excel(onet_file)
+
+# Verify the data
+dim(onet_skills)
+names(onet_skills)
+head(onet_skills)
+```
+
+### 11.2 Filtering O*NET Occupations
+
+We filtered the O*NET Software Skills dataset to focus
+on occupations related to our LinkedIn job categories.
+
+We selected Data Scientists, Business Intelligence Analysts,
+and Database Architects to compare their associated software
+technologies.
+
+Although these occupations are related to our research,
+they are not all exact matches to the LinkedIn job titles.
+
+
+```{r filter-onet-occupations}
+# Select the O*NET occupations relevant to our project
+
+onet_filtered <- onet_skills %>%
+  filter(
+    `O*NET-SOC Code` %in% c(
+      "15-2051.00",
+      "15-2051.01",
+      "15-1243.00"
+    )
+  )
+
+# Count software entries for each occupation
+onet_occupation_summary <- onet_filtered %>%
+  count(
+    `O*NET-SOC Code`,
+    Title,
+    name = "software_count"
+  )
+
+# Display the results
+knitr::kable(onet_occupation_summary)
+
+# Confirm the total filtered records
+nrow(onet_filtered)
+```
+
+### 11.3 Identifying Technical Skills in O*NET
+
+We examined the software technologies listed in O*NET
+for Data Scientists, Business Intelligence Analysts, and
+Database Architects.
+
+We looked for technologies related to Python, SQL, R,
+machine learning, Tableau, Power BI, and cloud platforms.
+
+This analysis helps us compare our LinkedIn findings
+with an independent occupational data source.
+
+
+```{r identify-onet-skills}
+
+# Define technology search patterns
+onet_patterns <- c(
+  Python = "\\bpython\\b",
+  SQL = "\\bsql\\b",
+  R = "\\bR\\b",
+  `Machine Learning` = "machine learning",
+  Tableau = "tableau",
+  `Power BI` = "power\\s*bi",
+  Cloud = "\\b(aws|azure|google cloud|gcp)\\b"
+)
+
+# Search O*NET software examples for these technologies
+onet_technical_skills <- onet_filtered %>%
+  mutate(
+    software_name = replace_na(`Workplace Example`, ""),
+    Python = str_detect(
+      software_name,
+      regex(onet_patterns["Python"], ignore_case = TRUE)
+    ),
+    SQL = str_detect(
+      software_name,
+      regex(onet_patterns["SQL"], ignore_case = TRUE)
+    ),
+    R = str_detect(
+      software_name,
+      "\\bR\\b"
+    ),
+    `Machine Learning` = str_detect(
+      software_name,
+      regex(onet_patterns["Machine Learning"], ignore_case = TRUE)
+    ),
+    Tableau = str_detect(
+      software_name,
+      regex(onet_patterns["Tableau"], ignore_case = TRUE)
+    ),
+    `Power BI` = str_detect(
+      software_name,
+      regex(onet_patterns["Power BI"], ignore_case = TRUE)
+    ),
+    Cloud = str_detect(
+      software_name,
+      regex(onet_patterns["Cloud"], ignore_case = TRUE)
+    )
+  )
+
+# Display the matching software entries
+onet_matches <- onet_technical_skills %>%
+  pivot_longer(
+    cols = c(
+      Python, SQL, R, `Machine Learning`,
+      Tableau, `Power BI`, Cloud
+    ),
+    names_to = "technical_skill",
+    values_to = "mentioned"
+  ) %>%
+  filter(mentioned) %>%
+  select(
+    Title,
+    `Workplace Example`,
+    technical_skill,
+    `In Demand`
+  )
+
+knitr::kable(head(onet_matches, 20))
+```
+
+### 11.4 Summarizing O*NET Technical Skills
+
+We summarized the technologies identified in O*NET
+for the three selected occupations.
+
+We examined which technologies are listed for each
+occupation and how many matching software entries are
+identified as in demand.
+
+This provides an independent comparison with our
+LinkedIn job posting analysis.
+
+
+```{r summarize-onet-skills}
+# Summarize O*NET technology matches by occupation
+
+onet_skill_summary <- onet_matches %>%
+  group_by(Title, technical_skill) %>%
+  summarise(
+    software_entries = n_distinct(`Workplace Example`),
+    in_demand_entries = n_distinct(
+      `Workplace Example`[`In Demand` == "Y"]
+    ),
+    .groups = "drop"
+  ) %>%
+  arrange(Title, desc(in_demand_entries))
+
+# Display the summary
+knitr::kable(onet_skill_summary)
+```
+
+### 11.5 Comparing LinkedIn and O*NET Findings
+
+We compared the technical skills identified in LinkedIn job
+descriptions with technologies identified in O*NET.
+
+LinkedIn measures how frequently skills are mentioned in our
+sample of job postings, while O*NET identifies software
+technologies associated with occupations and indicates whether
+individual technologies are classified as in demand.
+
+We used O*NET as a secondary reference rather than directly
+comparing its software-entry counts with LinkedIn percentages.
+
+
+```{r compare-linkedin-onet}
+# Summarize whether O*NET identifies in-demand software
+# in each selected technical skill group
+
+onet_comparison <- onet_skill_summary %>%
+  group_by(technical_skill) %>%
+  summarise(
+    occupations_listed = n_distinct(Title),
+    occupations_in_demand = n_distinct(
+      Title[in_demand_entries > 0]
+    ),
+    .groups = "drop"
+  )
+
+# Combine with LinkedIn technical skill percentages
+comparison_table <- technical_skill_frequency %>%
+  left_join(
+    onet_comparison,
+    by = c("skill" = "technical_skill")
+  ) %>%
+  mutate(
+    occupations_listed = replace_na(
+      occupations_listed, 0L
+    ),
+    occupations_in_demand = replace_na(
+      occupations_in_demand, 0L
+    )
+  ) %>%
+  arrange(desc(percentage))
+
+# Display comparison
+knitr::kable(
+  comparison_table,
+  col.names = c(
+    "Technical Skill",
+    "LinkedIn Job Count",
+    "LinkedIn %",
+    "O*NET Occupations Listed",
+    "O*NET Occupations In Demand"
+  )
+)
+```
+
+## 12. Findings and Conclusions
+
+### 12.1 Main Findings
+
+The goal of this project was to understand which technical
+skills are most frequently mentioned in data-related job
+postings and whether those skills differ across job roles.
+
+We analyzed 1,052 LinkedIn job postings from 2023 and 2024,
+focusing on Data Analyst, Data Scientist, and Data Engineer
+positions.
+
+SQL was the most common technical skill overall, appearing in
+63.8% of postings and in at least 59% of postings for each
+job role. Cloud technologies stood out in Data Engineer
+postings (73.6%), compared with Data Scientist (33.6%) and
+Data Analyst (12.3%) postings.
+
+Python (85.4%) and machine learning (71.3%) were mentioned
+more frequently than R (55.1%) in Data Scientist postings.
+R was mentioned less frequently in Data Analyst (14.3%) and
+Data Engineer (3.8%) postings.
+
+### 12.2 O*NET Comparison
+
+We used the O*NET Software Skills dataset as a second source
+to compare our findings.
+
+O*NET identified SQL, Python, Tableau, Power BI, and cloud
+technologies as having in-demand software entries across
+the three occupations we selected.
+
+Although O*NET measures occupational software associations
+rather than the percentage of job postings, it provided
+additional context for our LinkedIn findings.
+
+### 12.3 Limitations
+
+For the O*NET comparison, we selected occupations that were
+closely related to our LinkedIn job categories, but they were
+not all exact matches. Additionally, our technology matching
+method may not identify every relevant software product,
+particularly those used for machine learning.
+
+Our analysis was based on a selected group of LinkedIn job
+postings from 2023 and 2024, so the results may not represent
+all employers or current hiring trends.
+
+We identified skills through text matching, which means
+some references could be missed or incorrectly identified.
+We also measured skill mentions rather than confirming
+whether a technology was required or preferred.
+
+
+### 12.4 Conclusion
+
+Based on our analysis, SQL and Python were the most frequently
+mentioned technical skills overall. However, different job
+roles emphasized different technologies.
+
+These findings suggest that people entering the data field
+should consider the requirements of their intended role
+when deciding which technical skills to develop.
+
+
+```{r close-database}
+dbDisconnect(con)
+```
+
+
+## 13. References
+
+ArcGIS StoryMaps. (n.d.). *Using satellite information to understand & model landslide.* https://storymaps.arcgis.com/stories/61c6100d40bd47749e435e79bd54f480
+
+Kaggle. (n.d.). *LinkedIn job postings (2023–2024)* [Data set]. https://www.kaggle.com/datasets/arshkon/linkedin-job-postings
+
+National Center for O\*NET Development. (n.d.). *In-demand technology skills: Data scientists.* O\*NET OnLine. https://www.onetonline.org/link/demand/15-2051.00
+
+National Center for O\*NET Development. (n.d.). *O\*NET database.* https://www.onetcenter.org/database.html
+
+R Core Team. (n.d.). *The R project for statistical computing.* https://www.r-project.org/
+
+SQLite. (n.d.). *SQLite documentation.* https://www.sqlite.org/docs.html
+
+Wickham, H., François, R., Henry, L., Müller, K., & Vaughan, D. (n.d.). *dplyr: A grammar of data manipulation.* https://dplyr.tidyverse.org/
+
+Wickham, H. (n.d.). *ggplot2: Create elegant data visualisations using the grammar of graphics.* https://ggplot2.tidyverse.org/
+
+RSQLite contributors. (n.d.). *RSQLite: SQLite interface for R.* https://rsqlite.r-dbi.org/
+
